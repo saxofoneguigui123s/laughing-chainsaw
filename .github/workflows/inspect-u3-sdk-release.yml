@@ -1,0 +1,94 @@
+name: Inspect U3 SDK release source
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/inspect-u3-sdk-release.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  inspect-release:
+    # The GitHub-hosted runner can reach release-assets.githubusercontent.com,
+    # which is inaccessible from some sandboxed development environments.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the working branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Download the supplied U3 SDK release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p .release-input .release-unpacked
+          gh release download unturned2 \
+            --repo "${{ github.repository }}" \
+            --pattern 'U3-SDK-Nightfall-Survival-Expansion-v3.26.3.12.2.zip' \
+            --dir .release-input
+          unzip -q .release-input/U3-SDK-Nightfall-Survival-Expansion-v3.26.3.12.2.zip -d .release-unpacked
+
+      - name: Export source files needed to reproduce build failures
+        run: |
+          python3 <<'PY'
+          from __future__ import annotations
+          import hashlib
+          import json
+          import shutil
+          from pathlib import Path
+
+          extract_root = Path('.release-unpacked')
+          project_versions = list(extract_root.rglob('ProjectSettings/ProjectVersion.txt'))
+          if len(project_versions) != 1:
+              raise SystemExit(f'Expected exactly one U3-SDK project, found {len(project_versions)} ProjectVersion files')
+          project = project_versions[0].parents[1]
+          snapshot = Path('sdk_release_snapshot')
+          if snapshot.exists():
+              shutil.rmtree(snapshot)
+          snapshot.mkdir()
+
+          files = [
+              'ProjectSettings/ProjectVersion.txt',
+              'Packages/manifest.json',
+              'Packages/packages-lock.json',
+              'Assets/Runtime/Assembly-CSharp/Unturned/Bundles/Assets.cs',
+          ]
+          for relative in files:
+              source = project / relative
+              if not source.is_file():
+                  raise SystemExit(f'Missing expected file: {relative}')
+              destination = snapshot / relative
+              destination.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(source, destination)
+
+          shaders = project / 'Assets/Game/Sources/Shaders'
+          if not shaders.is_dir():
+              raise SystemExit('Missing U3-SDK shader source directory')
+          shutil.copytree(shaders, snapshot / 'Assets/Game/Sources/Shaders')
+
+          zip_file = Path('.release-input/U3-SDK-Nightfall-Survival-Expansion-v3.26.3.12.2.zip')
+          manifest = {
+              'source_release': 'unturned2/U3-SDK-Nightfall-Survival-Expansion-v3.26.3.12.2.zip',
+              'archive_sha256': hashlib.sha256(zip_file.read_bytes()).hexdigest(),
+              'project_root_name': project.name,
+              'snapshot_scope': 'ProjectSettings, Packages, Assets.cs, and all U3 shader sources',
+              'files': sorted(str(path.relative_to(snapshot)) for path in snapshot.rglob('*') if path.is_file()),
+          }
+          (snapshot / 'SNAPSHOT_MANIFEST.json').write_text(json.dumps(manifest, indent=2) + '\n')
+          PY
+
+      - name: Commit reproducible release snapshot
+        run: |
+          if git diff --quiet -- sdk_release_snapshot; then
+            echo 'Snapshot is already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sdk_release_snapshot
+          git commit -m 'Snapshot supplied U3 SDK release sources'
+          git push origin HEAD:${{ github.ref_name }}
