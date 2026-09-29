@@ -1,0 +1,66 @@
+name: Package and publish release asset
+
+# Manual: change anything in this file on the branch and push.
+on:
+  push:
+    branches:
+      - arena/01a0ee5f-laughing-chainsaw
+    paths:
+      - '.github/workflows/package-release.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      VERSION: 3.26.3.12.2
+      BASELINE: U3-SDK-Nightfall-Survival-Expansion-v3.26.3.12.1.zip
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/01a0ee5f-laughing-chainsaw
+          fetch-depth: 0
+
+      - name: Ensure zip is available
+        run: command -v zip >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq zip; }
+
+      - name: Download previously published archive
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/baseline
+          gh release download unturned --repo "$GITHUB_REPOSITORY" --pattern "$BASELINE" --dir /tmp/baseline
+          ls -l /tmp/baseline
+
+      - name: Build candidate archive
+        run: |
+          set -euo pipefail
+          OUT_DIR=/tmp/out ./tools/package-release.sh "$VERSION"
+          ls -l /tmp/out
+
+      - name: Verify candidate against published archive
+        run: |
+          set -euo pipefail
+          python3 tools/verify-release.py \
+            --baseline "/tmp/baseline/$BASELINE" \
+            --candidate "/tmp/out/U3-SDK-Nightfall-Survival-Expansion-v${VERSION}.zip"
+          unzip -tq "/tmp/out/U3-SDK-Nightfall-Survival-Expansion-v${VERSION}.zip"
+
+      - name: Publish assets to the release
+        run: |
+          set -euo pipefail
+          gh release upload unturned \
+            "/tmp/out/U3-SDK-Nightfall-Survival-Expansion-v${VERSION}.zip" \
+            "/tmp/out/U3-SDK-Nightfall-Survival-Expansion-v${VERSION}.zip.sha256" \
+            --clobber --repo "$GITHUB_REPOSITORY"
+
+      - name: Update release notes
+        run: |
+          set -euo pipefail
+          SHA=$(cut -d' ' -f1 "/tmp/out/U3-SDK-Nightfall-Survival-Expansion-v${VERSION}.zip.sha256")
+          sed -e "s/@@SHA256@@/$SHA/" -e "s/@@VERSION@@/$VERSION/" tools/release-notes.md > /tmp/notes.md
+          gh release edit unturned --repo "$GITHUB_REPOSITORY" --notes-file /tmp/notes.md
+          gh release view unturned --repo "$GITHUB_REPOSITORY" --json assets --jq '.assets[].name'

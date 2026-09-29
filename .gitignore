@@ -1,0 +1,10 @@
+# Release archives built by tools/package-release.sh
+dist/
+
+# Unity project scratch folders (should never be committed)
+U3-SDK/Library/
+U3-SDK/Temp/
+U3-SDK/obj/
+U3-SDK/Logs/
+U3-SDK/UserSettings/
+U3-SDK/MemoryCaptures/
