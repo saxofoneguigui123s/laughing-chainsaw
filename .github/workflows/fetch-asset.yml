@@ -28,35 +28,29 @@ jobs:
           set -euo pipefail
           mkdir -p /tmp/dl
           gh release download unturned --repo "$GITHUB_REPOSITORY" --dir /tmp/dl --clobber
-          ls -l /tmp/dl
           cd /tmp/dl
-          sha256sum ./*.zip > SHA256SUM.txt
-          cat SHA256SUM.txt
+          ls -l
+          sha256sum ./*.zip | tee SHA256SUM.txt
 
-      - name: Write manifest
+      - name: Extract update into the repository
         run: |
           set -euo pipefail
           cd /tmp/dl
           ZIP=$(ls ./*.zip | head -1)
-          {
-            echo "asset: $(basename "$ZIP")"
-            echo "sha256: $(cut -d' ' -f1 SHA256SUM.txt)"
-            echo "bytes: $(stat -c %s "$ZIP")"
-            echo
-            echo "== top-level entries =="
-            unzip -Z1 "$ZIP" | awk -F/ 'NF>1 {print $1"/"} NF==1 {print $1}' | sort -u
-            echo
-            echo "== full listing =="
-            unzip -l "$ZIP"
-          } > "$GITHUB_WORKSPACE/update-manifest.txt"
-          wc -l "$GITHUB_WORKSPACE/update-manifest.txt"
+          unzip -q "$ZIP" -d "$GITHUB_WORKSPACE"
+          cd "$GITHUB_WORKSPACE"
+          rm -f update-manifest.txt
+          echo "== imported tree =="
+          find U3-SDK -type f | wc -l
+          du -sh U3-SDK
+          git status --porcelain | head -20
 
-      - name: Commit manifest
+      - name: Commit imported update
         run: |
           set -euo pipefail
           cd "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add update-manifest.txt
-          git commit -m "Add update manifest [skip ci]"
+          git add -A
+          git commit -m "Import Nightfall Survival Expansion v3.26.3.12.1 (Unturned U3 SDK) [skip ci]"
           git push origin HEAD:arena/01a0ee5f-laughing-chainsaw
