@@ -24,3 +24,7 @@ O comando atualiza as definições e cria o pacote distribuível em `release/Nig
 ## Nota sobre os modelos Unity
 
 As definições `.dat` e as fichas de cada item estão completas. Unturned também exige os prefabs/modelos Unity correspondentes em cada asset bundle (`Item`, `Equip`, `Vest`, `Vehicle`, etc.). Como o ZIP do SDK informado é um binário externo e não está versionado neste repositório, o pacote deixa esses requisitos explícitos em `AssetRequirements.md` dentro de cada pasta de asset. Reenvie/anexe o projeto U3-SDK caso queira que os prefabs e bundles finais sejam inseridos diretamente nele.
+
+## Erro de shader / build do U3-SDK
+
+Se o build acusar que `HLSLSupport.cginc` não foi encontrado, use o diagnóstico e o reparador seguro em [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md). A causa é a instalação/cache do editor Unity, não as definições de conteúdo Nightfall.
