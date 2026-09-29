@@ -47,6 +47,21 @@ This update layers the existing Daybreak/Nightfall activities and a generic surv
 - The board combines those objectives with mastery, research, safehouse, hotspot, and rescue status.
 - XP, infection/immunity changes, upgrades, mutation selection, loot, and horde behavior are server-authoritative. HUD counters are presentation state only.
 
+## Build requirement: built-in AI module
+
+`SurvivalRescueAnchor.cs` is the only script in the SDK that uses `UnityEngine.AI` (`NavMeshAgent` for the optional escort leg). Unity only compiles built-in modules that are listed in `Packages/manifest.json`, and this SDK's manifest omitted the AI module, which caused:
+
+```
+Assets/Runtime/Assembly-CSharp/Unturned/Survival/SurvivalRescueAnchor.cs(38,11): error CS1069:
+The type name 'NavMeshAgent' could not be found in the namespace 'UnityEngine.AI'.
+This type has been forwarded to assembly 'UnityEngine.AIModule' ... Enable the built in package 'AI'
+in the Package Manager window to fix this error.
+```
+
+Fixed by adding `"com.unity.modules.ai": "1.0.0"` to `Packages/manifest.json` (and the matching builtin entry to `Packages/packages-lock.json`). Unity will keep the entry when it next rewrites the lock file.
+
+Runtime note: no prefab, scene, or object shipped in this SDK has a `NavMeshAgent` component, and Unturned's zombie/NPC movement does not use Unity navmesh. So `Survivor.GetComponent<NavMeshAgent>()` returns null on unmodified content and the rescue event takes the documented radio-beacon fallback. The escort leg only runs on maps that add a `NavMeshAgent` to the survivor object and bake a navmesh over that area.
+
 ## Integration points
 
 - `SurvivalExpansion.cs`, `SurvivalExpansionRuntime.cs`: system state, server hooks, noise/hotspot rotation, and passive safehouse effects.
