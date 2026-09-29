@@ -1,0 +1,4804 @@
+{
+  "schema": "nightfall-survival-content/v1",
+  "version": "3.26.3.12.3",
+  "sdk_target": "U3-SDK v3.26.3.12",
+  "generated_on": "2026-09-29",
+  "rarity_system": {
+    "Comum": "Encontrado facilmente em casas, lojas e veículos abandonados.",
+    "Incomum": "Equipamento policial/militar ou versões melhores.",
+    "Raro": "Difícil de encontrar, normalmente em áreas especiais.",
+    "Épico": "Extremamente escasso, encontrado em bases, depósitos ou eventos.",
+    "Lendário": "Equipamento de alto nível, extremamente raro e destinado ao endgame."
+  },
+  "entries": [
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Glock 17",
+      "slug": "glock_17",
+      "guid": "512cea12-0574-5052-909b-7665ed0377a5",
+      "legacy_id": 62000,
+      "weapon_type": "Pistola",
+      "game_item_type": "Gun",
+      "damage": 32,
+      "weight_kg": 0.9,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 85,
+      "range_m": 100,
+      "inventory_size": {
+        "x": 2,
+        "y": 1
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Pistol Magazine",
+      "firerate": 6,
+      "action": "Semi",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "supressor"
+      ],
+      "content_hash": "8f8fbbb251f4d738"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Glock 19",
+      "slug": "glock_19",
+      "guid": "2356589a-1055-5670-bdc7-ae4ad7d67e4d",
+      "legacy_id": 62001,
+      "weapon_type": "Pistola",
+      "game_item_type": "Gun",
+      "damage": 34,
+      "weight_kg": 0.8,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 88,
+      "range_m": 100,
+      "inventory_size": {
+        "x": 2,
+        "y": 1
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Pistol Magazine",
+      "firerate": 6,
+      "action": "Semi",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "supressor"
+      ],
+      "content_hash": "63e884e0eb8359f3"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Glock 18",
+      "slug": "glock_18",
+      "guid": "6df1be39-c998-5093-9b5e-755c9cd55361",
+      "legacy_id": 62002,
+      "weapon_type": "Pistola",
+      "game_item_type": "Gun",
+      "damage": 28,
+      "weight_kg": 0.9,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 80,
+      "range_m": 100,
+      "inventory_size": {
+        "x": 2,
+        "y": 1
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Pistol Magazine",
+      "firerate": 6,
+      "action": "Semi",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "supressor"
+      ],
+      "content_hash": "61d7010373dc112a"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "SIG P320",
+      "slug": "sig_p320",
+      "guid": "3b8f28e3-4989-50ee-935c-7925bab59296",
+      "legacy_id": 62003,
+      "weapon_type": "Pistola",
+      "game_item_type": "Gun",
+      "damage": 34,
+      "weight_kg": 0.8,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 87,
+      "range_m": 100,
+      "inventory_size": {
+        "x": 2,
+        "y": 1
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Pistol Magazine",
+      "firerate": 6,
+      "action": "Semi",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "supressor"
+      ],
+      "content_hash": "9d33387a245ab8ec"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "SIG P226",
+      "slug": "sig_p226",
+      "guid": "c710bc8b-6ee9-54e9-bcb4-c954384c1e48",
+      "legacy_id": 62004,
+      "weapon_type": "Pistola",
+      "game_item_type": "Gun",
+      "damage": 36,
+      "weight_kg": 1.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 92,
+      "range_m": 100,
+      "inventory_size": {
+        "x": 2,
+        "y": 1
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Pistol Magazine",
+      "firerate": 6,
+      "action": "Semi",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "supressor"
+      ],
+      "content_hash": "e55ec1ff340a2b80"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Beretta 92FS",
+      "slug": "beretta_92fs",
+      "guid": "69d61ea6-8cc4-5282-a2d7-55dc370bf2b2",
+      "legacy_id": 62005,
+      "weapon_type": "Pistola",
+      "game_item_type": "Gun",
+      "damage": 35,
+      "weight_kg": 0.95,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 86,
+      "range_m": 100,
+      "inventory_size": {
+        "x": 2,
+        "y": 1
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Pistol Magazine",
+      "firerate": 6,
+      "action": "Semi",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "supressor"
+      ],
+      "content_hash": "e61cf1aad6904b06"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "FN Five-seveN",
+      "slug": "fn_five_seven",
+      "guid": "5249c539-8797-5079-8dac-2f947c06422b",
+      "legacy_id": 62006,
+      "weapon_type": "Pistola",
+      "game_item_type": "Gun",
+      "damage": 30,
+      "weight_kg": 0.62,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 88,
+      "range_m": 100,
+      "inventory_size": {
+        "x": 2,
+        "y": 1
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Pistol Magazine",
+      "firerate": 6,
+      "action": "Semi",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "supressor"
+      ],
+      "content_hash": "34bcc83fde66dd4a"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Desert Eagle",
+      "slug": "desert_eagle",
+      "guid": "3fedb9d6-3263-5cb1-90c3-b370a341c763",
+      "legacy_id": 62007,
+      "weapon_type": "Pistola",
+      "game_item_type": "Gun",
+      "damage": 65,
+      "weight_kg": 2.0,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 75,
+      "range_m": 100,
+      "inventory_size": {
+        "x": 2,
+        "y": 1
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Pistol Magazine",
+      "firerate": 6,
+      "action": "Semi",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "supressor"
+      ],
+      "content_hash": "1c24c859822f71fb"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "MP5",
+      "slug": "mp5",
+      "guid": "eb9ebb5e-5d30-56e3-9774-1ced9725893f",
+      "legacy_id": 62008,
+      "weapon_type": "Submetralhadora",
+      "game_item_type": "Gun",
+      "damage": 30,
+      "weight_kg": 2.5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 88,
+      "range_m": 150,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "SMG Magazine",
+      "firerate": 10,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "4eb1ebdb146dd00b"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "MP7",
+      "slug": "mp7",
+      "guid": "0dc17c3b-e9ff-536b-adf9-59d4cf142044",
+      "legacy_id": 62009,
+      "weapon_type": "Submetralhadora",
+      "game_item_type": "Gun",
+      "damage": 27,
+      "weight_kg": 2.1,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 90,
+      "range_m": 150,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "SMG Magazine",
+      "firerate": 10,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "cf90382e4e350c5a"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "UMP45",
+      "slug": "ump45",
+      "guid": "4606f293-72b5-55b1-ae94-26d0132805c7",
+      "legacy_id": 62010,
+      "weapon_type": "Submetralhadora",
+      "game_item_type": "Gun",
+      "damage": 42,
+      "weight_kg": 2.5,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 85,
+      "range_m": 150,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "SMG Magazine",
+      "firerate": 10,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "9778f33d8451cae6"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "P90",
+      "slug": "p90",
+      "guid": "f5635410-35a6-51c4-9ee3-c86466b0ab1a",
+      "legacy_id": 62011,
+      "weapon_type": "Submetralhadora",
+      "game_item_type": "Gun",
+      "damage": 29,
+      "weight_kg": 2.6,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 91,
+      "range_m": 150,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "SMG Magazine",
+      "firerate": 10,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "b46cdcd98d1afabe"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Vector",
+      "slug": "vector",
+      "guid": "d7dd58e2-57e3-5767-8499-e1c6e373de3a",
+      "legacy_id": 62012,
+      "weapon_type": "Submetralhadora",
+      "game_item_type": "Gun",
+      "damage": 33,
+      "weight_kg": 2.7,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 82,
+      "range_m": 150,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "SMG Magazine",
+      "firerate": 10,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "4d488a8d776d4840"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Uzi",
+      "slug": "uzi",
+      "guid": "8c8e44e0-5df6-5764-ab9e-5cf9391e60de",
+      "legacy_id": 62013,
+      "weapon_type": "Submetralhadora",
+      "game_item_type": "Gun",
+      "damage": 31,
+      "weight_kg": 3.0,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 80,
+      "range_m": 150,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "SMG Magazine",
+      "firerate": 10,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "f56fb3e10bc2d8e6"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "M4A1",
+      "slug": "m4a1",
+      "guid": "16f4ab54-de2f-5db9-adf2-67296906a433",
+      "legacy_id": 62014,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 42,
+      "weight_kg": 3.4,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 94,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "e2bb19f6b24bcb8c"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "AR-15",
+      "slug": "ar_15",
+      "guid": "f05f07b0-d387-578a-a731-925fd3cd5490",
+      "legacy_id": 62015,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 41,
+      "weight_kg": 3.2,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 90,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "f0039b87bb753927"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "HK416",
+      "slug": "hk416",
+      "guid": "d64e548e-aba1-56dc-b086-c16427665f93",
+      "legacy_id": 62016,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 45,
+      "weight_kg": 3.5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 96,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "d766a55d8f51c6c2"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "SCAR-L",
+      "slug": "scar_l",
+      "guid": "9d2b786e-a93f-5efb-a2e9-c13020a98144",
+      "legacy_id": 62017,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 47,
+      "weight_kg": 3.6,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 94,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "2bdc8383f12f81cf"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "SCAR-H",
+      "slug": "scar_h",
+      "guid": "04e29998-d2dd-51c2-b3b5-7420a1279ba7",
+      "legacy_id": 62018,
+      "weapon_type": "Fuzil pesado",
+      "game_item_type": "Gun",
+      "damage": 65,
+      "weight_kg": 4.0,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "durability": 95,
+      "range_m": 320,
+      "inventory_size": {
+        "x": 5,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Heavy Rifle Magazine",
+      "firerate": 7,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "d6f6af7c67a861ba"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "AK-47",
+      "slug": "ak_47",
+      "guid": "e0227c02-5f5f-535d-ace1-76a486fe737e",
+      "legacy_id": 62019,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 48,
+      "weight_kg": 4.3,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 93,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "4bddfde14ecd3b30"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "AKM",
+      "slug": "akm",
+      "guid": "79ed9efa-e67e-5844-a52e-be4a5d147176",
+      "legacy_id": 62020,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 50,
+      "weight_kg": 3.8,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 95,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "88509d08b261cabb"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "AK-74",
+      "slug": "ak_74",
+      "guid": "b211307a-11aa-5dac-9a5d-c3a0dcd3ff3a",
+      "legacy_id": 62021,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 44,
+      "weight_kg": 3.3,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 92,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "67c0525092a9d263"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "AK-12",
+      "slug": "ak_12",
+      "guid": "581ddec8-a55e-5aee-a44c-d7e84107d503",
+      "legacy_id": 62022,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 47,
+      "weight_kg": 3.5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 96,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "9ff54bd222467429"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "AUG",
+      "slug": "aug",
+      "guid": "7036f907-89e8-5c44-9da6-bb1c3149290d",
+      "legacy_id": 62023,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 43,
+      "weight_kg": 3.6,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 91,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "6bd525f605a1f2b3"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "FAMAS",
+      "slug": "famas",
+      "guid": "d1166add-294a-57f4-b4ef-708a703d3c06",
+      "legacy_id": 62024,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 44,
+      "weight_kg": 3.8,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 86,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "33dfa712fa7ef77c"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "G36",
+      "slug": "g36",
+      "guid": "2549ea6a-5931-5370-92a5-7edd6e982b57",
+      "legacy_id": 62025,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 42,
+      "weight_kg": 3.6,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 93,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "93ea2704c7d61c14"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Tavor X95",
+      "slug": "tavor_x95",
+      "guid": "f6fe2bf5-34ac-5455-85d6-e75261a202f1",
+      "legacy_id": 62026,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 43,
+      "weight_kg": 3.3,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 95,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "fc5ea5209f091d60"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "M16A4",
+      "slug": "m16a4",
+      "guid": "30013e64-a6a6-54ad-ada1-5b1a2d4b53b0",
+      "legacy_id": 62027,
+      "weapon_type": "Fuzil",
+      "game_item_type": "Gun",
+      "damage": 44,
+      "weight_kg": 3.8,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 94,
+      "range_m": 250,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 8,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "1fedaed429bfad50"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "AS VAL",
+      "slug": "as_val",
+      "guid": "b1b39c38-a6db-5ce6-852b-1aaa925b61b9",
+      "legacy_id": 62028,
+      "weapon_type": "Fuzil especial",
+      "game_item_type": "Gun",
+      "damage": 39,
+      "weight_kg": 3.5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 86,
+      "range_m": 180,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Rifle Magazine",
+      "firerate": 9,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "e43f5187f36aa192"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "M24",
+      "slug": "m24",
+      "guid": "c3fcdabc-06cd-5181-b0de-6365da7c0b28",
+      "legacy_id": 62029,
+      "weapon_type": "Precisão",
+      "game_item_type": "Gun",
+      "damage": 95,
+      "weight_kg": 5.4,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 89,
+      "range_m": 500,
+      "inventory_size": {
+        "x": 5,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Precision Magazine",
+      "firerate": 2,
+      "action": "Bolt",
+      "modifiers": [
+        "mira",
+        "bipé",
+        "supressor"
+      ],
+      "content_hash": "dc5f67931650ba36"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Remington 700",
+      "slug": "remington_700",
+      "guid": "7164bf12-faaf-5d79-8e54-59520b582a75",
+      "legacy_id": 62030,
+      "weapon_type": "Precisão",
+      "game_item_type": "Gun",
+      "damage": 92,
+      "weight_kg": 4.2,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 91,
+      "range_m": 500,
+      "inventory_size": {
+        "x": 5,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Precision Magazine",
+      "firerate": 2,
+      "action": "Bolt",
+      "modifiers": [
+        "mira",
+        "bipé",
+        "supressor"
+      ],
+      "content_hash": "12f11696b803cddc"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "L96A1",
+      "slug": "l96a1",
+      "guid": "f2d2e532-8ab8-541e-a36c-0bc94e62f49c",
+      "legacy_id": 62031,
+      "weapon_type": "Precisão",
+      "game_item_type": "Gun",
+      "damage": 110,
+      "weight_kg": 6.5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 95,
+      "range_m": 500,
+      "inventory_size": {
+        "x": 5,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Precision Magazine",
+      "firerate": 2,
+      "action": "Bolt",
+      "modifiers": [
+        "mira",
+        "bipé",
+        "supressor"
+      ],
+      "content_hash": "d439102686687fc1"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Dragunov SVD",
+      "slug": "dragunov_svd",
+      "guid": "d76220e2-3a65-5a01-a880-b2f72a35fa4f",
+      "legacy_id": 62032,
+      "weapon_type": "DMR",
+      "game_item_type": "Gun",
+      "damage": 72,
+      "weight_kg": 4.3,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 90,
+      "range_m": 400,
+      "inventory_size": {
+        "x": 5,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "DMR Magazine",
+      "firerate": 4,
+      "action": "Semi",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "96a9d2b9e62bc585"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Barrett M82",
+      "slug": "barrett_m82",
+      "guid": "ca72e49e-ee8b-502b-ad27-84995574e363",
+      "legacy_id": 62033,
+      "weapon_type": "Antimaterial",
+      "game_item_type": "Gun",
+      "damage": 180,
+      "weight_kg": 12.5,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "durability": 97,
+      "range_m": 650,
+      "inventory_size": {
+        "x": 6,
+        "y": 2
+      },
+      "noise": "Extremo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Anti-Materiel Magazine",
+      "firerate": 1,
+      "action": "Bolt",
+      "modifiers": [
+        "mira",
+        "bipé"
+      ],
+      "content_hash": "c3a92d89b8c55e14"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "CheyTac M200",
+      "slug": "cheytac_m200",
+      "guid": "af6373b7-ea16-57a1-85e7-b0d7378b1814",
+      "legacy_id": 62034,
+      "weapon_type": "Precisão",
+      "game_item_type": "Gun",
+      "damage": 150,
+      "weight_kg": 12.0,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "durability": 93,
+      "range_m": 500,
+      "inventory_size": {
+        "x": 5,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Precision Magazine",
+      "firerate": 2,
+      "action": "Bolt",
+      "modifiers": [
+        "mira",
+        "bipé",
+        "supressor"
+      ],
+      "content_hash": "d25cc0d4bce57020"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "SR-25",
+      "slug": "sr_25",
+      "guid": "bb6b7943-ca7d-56d3-af83-11cf8355fc43",
+      "legacy_id": 62035,
+      "weapon_type": "DMR",
+      "game_item_type": "Gun",
+      "damage": 70,
+      "weight_kg": 4.8,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 92,
+      "range_m": 400,
+      "inventory_size": {
+        "x": 5,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "DMR Magazine",
+      "firerate": 4,
+      "action": "Semi",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura",
+        "supressor"
+      ],
+      "content_hash": "acc0838befab770f"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Remington 870",
+      "slug": "remington_870",
+      "guid": "bfa9aa91-6361-54f3-a008-4843a0e8b1d4",
+      "legacy_id": 62036,
+      "weapon_type": "Escopeta",
+      "game_item_type": "Gun",
+      "damage": 90,
+      "weight_kg": 3.5,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 88,
+      "range_m": 60,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Shotgun Shells",
+      "firerate": 4,
+      "action": "Pump",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura"
+      ],
+      "content_hash": "f87e3d2c875ddbe1"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Mossberg 500",
+      "slug": "mossberg_500",
+      "guid": "8a887a80-95ae-5d8e-a7c1-ca4d11814a01",
+      "legacy_id": 62037,
+      "weapon_type": "Escopeta",
+      "game_item_type": "Gun",
+      "damage": 88,
+      "weight_kg": 3.4,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 90,
+      "range_m": 60,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Shotgun Shells",
+      "firerate": 4,
+      "action": "Pump",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura"
+      ],
+      "content_hash": "581a1864b4123e07"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Mossberg 590",
+      "slug": "mossberg_590",
+      "guid": "e846ffde-f68d-5861-a62f-06b56e068ad5",
+      "legacy_id": 62038,
+      "weapon_type": "Escopeta",
+      "game_item_type": "Gun",
+      "damage": 92,
+      "weight_kg": 3.6,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 93,
+      "range_m": 60,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Shotgun Shells",
+      "firerate": 4,
+      "action": "Pump",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura"
+      ],
+      "content_hash": "c1962c79fd676981"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Benelli M4",
+      "slug": "benelli_m4",
+      "guid": "3fdadb07-4c39-5274-85f4-ce10d7a66ea8",
+      "legacy_id": 62039,
+      "weapon_type": "Escopeta",
+      "game_item_type": "Gun",
+      "damage": 89,
+      "weight_kg": 3.8,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 95,
+      "range_m": 60,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Shotgun Shells",
+      "firerate": 4,
+      "action": "Pump",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura"
+      ],
+      "content_hash": "f3eba63a250adffa"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "SPAS-12",
+      "slug": "spas_12",
+      "guid": "35cbf67b-3e98-5130-b62a-6bfa89f2e028",
+      "legacy_id": 62040,
+      "weapon_type": "Escopeta",
+      "game_item_type": "Gun",
+      "damage": 96,
+      "weight_kg": 4.2,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 88,
+      "range_m": 60,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Shotgun Shells",
+      "firerate": 4,
+      "action": "Pump",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura"
+      ],
+      "content_hash": "c48a79cf280a3835"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "Saiga-12",
+      "slug": "saiga_12",
+      "guid": "0a4e39fc-d03b-5c15-8151-6aebf1c84a6c",
+      "legacy_id": 62041,
+      "weapon_type": "Escopeta",
+      "game_item_type": "Gun",
+      "damage": 91,
+      "weight_kg": 4.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 90,
+      "range_m": 60,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Shotgun Shells",
+      "firerate": 4,
+      "action": "Pump",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura"
+      ],
+      "content_hash": "6bd1bf12377a1911"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "KSG",
+      "slug": "ksg",
+      "guid": "0a176de1-993f-5c14-83fa-bad84afa883d",
+      "legacy_id": 62042,
+      "weapon_type": "Escopeta",
+      "game_item_type": "Gun",
+      "damage": 94,
+      "weight_kg": 3.9,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 92,
+      "range_m": 60,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Shotgun Shells",
+      "firerate": 4,
+      "action": "Pump",
+      "modifiers": [
+        "mira",
+        "lanterna",
+        "empunhadura"
+      ],
+      "content_hash": "d30363bab905adb1"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "M249",
+      "slug": "m249",
+      "guid": "a71e22ac-4534-532f-a54b-adbad05733eb",
+      "legacy_id": 62043,
+      "weapon_type": "Metralhadora",
+      "game_item_type": "Gun",
+      "damage": 52,
+      "weight_kg": 7.5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 93,
+      "range_m": 300,
+      "inventory_size": {
+        "x": 5,
+        "y": 3
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "LMG Belt",
+      "firerate": 9,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "bipé",
+        "supressor"
+      ],
+      "content_hash": "5f6d9bc848fe21ff"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "PKM",
+      "slug": "pkm",
+      "guid": "468c44ca-2b2d-5f76-90e4-dd1d12920b03",
+      "legacy_id": 62044,
+      "weapon_type": "Metralhadora",
+      "game_item_type": "Gun",
+      "damage": 58,
+      "weight_kg": 7.5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 96,
+      "range_m": 300,
+      "inventory_size": {
+        "x": 5,
+        "y": 3
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "LMG Belt",
+      "firerate": 9,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "bipé",
+        "supressor"
+      ],
+      "content_hash": "03d24342da4412ca"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "RPK",
+      "slug": "rpk",
+      "guid": "d03dcf7b-f90a-5316-82d4-932c01d9cb90",
+      "legacy_id": 62045,
+      "weapon_type": "Metralhadora",
+      "game_item_type": "Gun",
+      "damage": 51,
+      "weight_kg": 5.0,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 95,
+      "range_m": 300,
+      "inventory_size": {
+        "x": 5,
+        "y": 3
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "LMG Belt",
+      "firerate": 9,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "bipé",
+        "supressor"
+      ],
+      "content_hash": "cc95f4c1e97134f5"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "MG3",
+      "slug": "mg3",
+      "guid": "67a91e5f-5eed-5f3d-bcc0-4b3067dc8ae4",
+      "legacy_id": 62046,
+      "weapon_type": "Metralhadora",
+      "game_item_type": "Gun",
+      "damage": 55,
+      "weight_kg": 11.5,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "durability": 90,
+      "range_m": 300,
+      "inventory_size": {
+        "x": 5,
+        "y": 3
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "LMG Belt",
+      "firerate": 9,
+      "action": "Automatic",
+      "modifiers": [
+        "mira",
+        "bipé",
+        "supressor"
+      ],
+      "content_hash": "735751e6df762b3d"
+    },
+    {
+      "kind": "weapon",
+      "era": "moderna",
+      "name": "M134 Minigun",
+      "slug": "m134_minigun",
+      "guid": "0695c823-5be8-52b5-9e2f-f2fd110ae34d",
+      "legacy_id": 62047,
+      "weapon_type": "Metralhadora pesada",
+      "game_item_type": "Gun",
+      "damage": 45,
+      "weight_kg": 39.0,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "durability": 98,
+      "range_m": 350,
+      "inventory_size": {
+        "x": 6,
+        "y": 4
+      },
+      "noise": "Extremo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Minigun Belt",
+      "firerate": 16,
+      "action": "Minigun",
+      "modifiers": [
+        "mira",
+        "bipé"
+      ],
+      "content_hash": "07a0ea4bf7b12e11"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Espada medieval",
+      "slug": "espada_medieval",
+      "guid": "3c2a1d1b-689a-5734-9628-8b4eaa911d2b",
+      "legacy_id": 62048,
+      "weapon_type": "Espada",
+      "game_item_type": "Melee",
+      "damage": 55,
+      "weight_kg": 1.5,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 80,
+      "range_m": 2.2,
+      "inventory_size": {
+        "x": 3,
+        "y": 1
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 12,
+      "strength": 1.27,
+      "content_hash": "d8ff764c29126b5a"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Espada longa",
+      "slug": "espada_longa",
+      "guid": "68651f8a-2390-5a79-a0a1-e3b3b2025db3",
+      "legacy_id": 62049,
+      "weapon_type": "Espada",
+      "game_item_type": "Melee",
+      "damage": 68,
+      "weight_kg": 1.7,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 85,
+      "range_m": 2.2,
+      "inventory_size": {
+        "x": 3,
+        "y": 1
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 14,
+      "strength": 1.34,
+      "content_hash": "c0d42a6ab74e8052"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Gládio",
+      "slug": "gladio",
+      "guid": "5f2ff1f2-1523-5a4d-8c4e-f93ac7f16a09",
+      "legacy_id": 62050,
+      "weapon_type": "Espada",
+      "game_item_type": "Melee",
+      "damage": 50,
+      "weight_kg": 1.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 82,
+      "range_m": 2.2,
+      "inventory_size": {
+        "x": 3,
+        "y": 1
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 8,
+      "strength": 1.25,
+      "content_hash": "c9cd49b69634b23d"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Katana",
+      "slug": "katana",
+      "guid": "d9acbed9-f0c8-540a-9c76-73316724a40a",
+      "legacy_id": 62051,
+      "weapon_type": "Espada",
+      "game_item_type": "Melee",
+      "damage": 72,
+      "weight_kg": 1.2,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 78,
+      "range_m": 2.2,
+      "inventory_size": {
+        "x": 3,
+        "y": 1
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 10,
+      "strength": 1.36,
+      "content_hash": "750cd226b1ab44f2"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Wakizashi",
+      "slug": "wakizashi",
+      "guid": "39563821-a045-587b-b6f8-4f4b56697b58",
+      "legacy_id": 62052,
+      "weapon_type": "Espada",
+      "game_item_type": "Melee",
+      "damage": 58,
+      "weight_kg": 0.9,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 80,
+      "range_m": 2.2,
+      "inventory_size": {
+        "x": 3,
+        "y": 1
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 8,
+      "strength": 1.29,
+      "content_hash": "0c105568f65edb80"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Sabre",
+      "slug": "sabre",
+      "guid": "9f2521fb-f52d-551c-891f-2115ea51e085",
+      "legacy_id": 62053,
+      "weapon_type": "Espada",
+      "game_item_type": "Melee",
+      "damage": 61,
+      "weight_kg": 1.3,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 84,
+      "range_m": 2.2,
+      "inventory_size": {
+        "x": 3,
+        "y": 1
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 10,
+      "strength": 1.3,
+      "content_hash": "d1697f327c7a6bf6"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Espada viking",
+      "slug": "espada_viking",
+      "guid": "92e39db9-d7f9-5cb7-b46c-f18ac4708310",
+      "legacy_id": 62054,
+      "weapon_type": "Espada",
+      "game_item_type": "Melee",
+      "damage": 67,
+      "weight_kg": 1.6,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 81,
+      "range_m": 2.2,
+      "inventory_size": {
+        "x": 3,
+        "y": 1
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 13,
+      "strength": 1.33,
+      "content_hash": "c13fa52d111e7ac4"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Claymore",
+      "slug": "claymore",
+      "guid": "ef621e0c-258b-5aff-94b9-8d3699febe26",
+      "legacy_id": 62055,
+      "weapon_type": "Espada pesada",
+      "game_item_type": "Melee",
+      "damage": 90,
+      "weight_kg": 2.5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 86,
+      "range_m": 2.7,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 20,
+      "strength": 1.45,
+      "content_hash": "b5ccfe6c1bde43be"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Scimitarra",
+      "slug": "scimitarra",
+      "guid": "3dc612eb-e3de-5599-9ba0-2293c3f3fa65",
+      "legacy_id": 62056,
+      "weapon_type": "Espada",
+      "game_item_type": "Melee",
+      "damage": 62,
+      "weight_kg": 1.4,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 82,
+      "range_m": 2.2,
+      "inventory_size": {
+        "x": 3,
+        "y": 1
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 11,
+      "strength": 1.31,
+      "content_hash": "9e147dd554118c70"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Rapieira",
+      "slug": "rapieira",
+      "guid": "7e71585f-4927-5c41-b736-4d5c825c1504",
+      "legacy_id": 62057,
+      "weapon_type": "Espada",
+      "game_item_type": "Melee",
+      "damage": 48,
+      "weight_kg": 1.1,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 72,
+      "range_m": 2.2,
+      "inventory_size": {
+        "x": 3,
+        "y": 1
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 9,
+      "strength": 1.24,
+      "content_hash": "5da3ac101d404aa5"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Machado viking",
+      "slug": "machado_viking",
+      "guid": "9f24cc9d-08ed-587a-8703-4d274d5be748",
+      "legacy_id": 62058,
+      "weapon_type": "Machado",
+      "game_item_type": "Melee",
+      "damage": 70,
+      "weight_kg": 1.4,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 85,
+      "range_m": 2.0,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 11,
+      "strength": 1.35,
+      "content_hash": "cc8c42c03fb72f0a"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Machado de batalha",
+      "slug": "machado_de_batalha",
+      "guid": "ad613dca-13d5-52a7-86f9-14c5fccc5f9c",
+      "legacy_id": 62059,
+      "weapon_type": "Machado",
+      "game_item_type": "Melee",
+      "damage": 82,
+      "weight_kg": 2.2,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 84,
+      "range_m": 2.0,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 18,
+      "strength": 1.41,
+      "content_hash": "af720553ea8e72a5"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Machado de duas mãos",
+      "slug": "machado_de_duas_maos",
+      "guid": "85800b4c-7173-5a16-a172-74fd1dae9ab6",
+      "legacy_id": 62060,
+      "weapon_type": "Machado pesado",
+      "game_item_type": "Melee",
+      "damage": 105,
+      "weight_kg": 4.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 80,
+      "range_m": 2.4,
+      "inventory_size": {
+        "x": 4,
+        "y": 2
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 32,
+      "strength": 1.52,
+      "content_hash": "c98b477f57347a31"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Tomahawk",
+      "slug": "tomahawk",
+      "guid": "52b1437b-b090-52a9-8424-37fd9ae977b2",
+      "legacy_id": 62061,
+      "weapon_type": "Machado",
+      "game_item_type": "Melee",
+      "damage": 58,
+      "weight_kg": 1.0,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 82,
+      "range_m": 2.0,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 8,
+      "strength": 1.29,
+      "content_hash": "8fc6ca7f5f2ae27a"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Lança",
+      "slug": "lanca",
+      "guid": "709b6382-4777-503f-9d44-d77ed093a0b1",
+      "legacy_id": 62062,
+      "weapon_type": "Haste",
+      "game_item_type": "Melee",
+      "damage": 52,
+      "weight_kg": 2.0,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 75,
+      "range_m": 3.0,
+      "inventory_size": {
+        "x": 1,
+        "y": 4
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 16,
+      "strength": 1.26,
+      "content_hash": "55247d6f0e688d7d"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Alabarda",
+      "slug": "alabarda",
+      "guid": "f01e48ac-5365-5f81-a184-a13d81fdbcf0",
+      "legacy_id": 62063,
+      "weapon_type": "Haste pesada",
+      "game_item_type": "Melee",
+      "damage": 92,
+      "weight_kg": 3.5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 85,
+      "range_m": 3.3,
+      "inventory_size": {
+        "x": 2,
+        "y": 4
+      },
+      "noise": "Alto",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 28,
+      "strength": 1.46,
+      "content_hash": "bfb19126d462a7e8"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Tridente",
+      "slug": "tridente",
+      "guid": "c661f837-7237-551f-afb1-d50005be642a",
+      "legacy_id": 62064,
+      "weapon_type": "Haste",
+      "game_item_type": "Melee",
+      "damage": 60,
+      "weight_kg": 2.5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 79,
+      "range_m": 3.0,
+      "inventory_size": {
+        "x": 1,
+        "y": 4
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 20,
+      "strength": 1.3,
+      "content_hash": "9d78ab5164bf2e24"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Azagaia",
+      "slug": "azagaia",
+      "guid": "48a4e03c-c94d-555d-a0ae-4fc310fb851f",
+      "legacy_id": 62065,
+      "weapon_type": "Arremesso",
+      "game_item_type": "Melee",
+      "damage": 55,
+      "weight_kg": 1.5,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 70,
+      "range_m": 1.7,
+      "inventory_size": {
+        "x": 1,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 12,
+      "strength": 1.27,
+      "content_hash": "733ead0f51a95aa5"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Clava",
+      "slug": "clava",
+      "guid": "c57ee716-78da-58e9-ae6d-00a0e4ee0408",
+      "legacy_id": 62066,
+      "weapon_type": "Impacto",
+      "game_item_type": "Melee",
+      "damage": 45,
+      "weight_kg": 1.5,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 90,
+      "range_m": 1.9,
+      "inventory_size": {
+        "x": 2,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 12,
+      "strength": 1.23,
+      "content_hash": "c6280608423447a2"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Maça medieval",
+      "slug": "maca_medieval",
+      "guid": "33f3bed4-ce26-5c07-a324-193282b88855",
+      "legacy_id": 62067,
+      "weapon_type": "Impacto",
+      "game_item_type": "Melee",
+      "damage": 75,
+      "weight_kg": 2.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 92,
+      "range_m": 1.9,
+      "inventory_size": {
+        "x": 2,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 16,
+      "strength": 1.38,
+      "content_hash": "717927c21d8f2b43"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Mangual",
+      "slug": "mangual",
+      "guid": "6f3677a0-25e4-5a3e-af7f-7c9f2d3d8a8b",
+      "legacy_id": 62068,
+      "weapon_type": "Impacto",
+      "game_item_type": "Melee",
+      "damage": 82,
+      "weight_kg": 2.5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 72,
+      "range_m": 1.9,
+      "inventory_size": {
+        "x": 2,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 20,
+      "strength": 1.41,
+      "content_hash": "fcb93264c4238d74"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Martelo de guerra",
+      "slug": "martelo_de_guerra",
+      "guid": "54f58290-e96d-53a0-8c09-e3bd4e7b332c",
+      "legacy_id": 62069,
+      "weapon_type": "Impacto",
+      "game_item_type": "Melee",
+      "damage": 86,
+      "weight_kg": 2.3,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 88,
+      "range_m": 1.9,
+      "inventory_size": {
+        "x": 2,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 18,
+      "strength": 1.43,
+      "content_hash": "ecb11bbcfee52b8d"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Porrete",
+      "slug": "porrete",
+      "guid": "aad1e4b6-cb28-580a-a300-e0b23136b749",
+      "legacy_id": 62070,
+      "weapon_type": "Impacto",
+      "game_item_type": "Melee",
+      "damage": 38,
+      "weight_kg": 1.0,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 95,
+      "range_m": 1.9,
+      "inventory_size": {
+        "x": 2,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 8,
+      "strength": 1.19,
+      "content_hash": "ebb3716a38d0a78a"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Bastão",
+      "slug": "bastao",
+      "guid": "d39c08ff-a0fd-5ff3-b51a-d950f1b176b0",
+      "legacy_id": 62071,
+      "weapon_type": "Impacto",
+      "game_item_type": "Melee",
+      "damage": 30,
+      "weight_kg": 1.1,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 90,
+      "range_m": 1.9,
+      "inventory_size": {
+        "x": 2,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 9,
+      "strength": 1.15,
+      "content_hash": "ff2f8776f6fa3ff9"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Arco longo",
+      "slug": "arco_longo",
+      "guid": "e546ff2d-a2e3-59e1-8b7a-3d1517a46fc9",
+      "legacy_id": 62072,
+      "weapon_type": "Arco",
+      "game_item_type": "Gun",
+      "damage": 65,
+      "weight_kg": 2.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 78,
+      "range_m": 130,
+      "inventory_size": {
+        "x": 1,
+        "y": 4
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Arrow Bundle",
+      "firerate": 2,
+      "action": "String",
+      "modifiers": [
+        "mira"
+      ],
+      "content_hash": "0b4217ac8cde80d9"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Arco recurvo",
+      "slug": "arco_recurvo",
+      "guid": "f0d45dfb-461c-5200-80ac-d02cb19af1d0",
+      "legacy_id": 62073,
+      "weapon_type": "Arco",
+      "game_item_type": "Gun",
+      "damage": 60,
+      "weight_kg": 1.5,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 82,
+      "range_m": 130,
+      "inventory_size": {
+        "x": 1,
+        "y": 4
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Arrow Bundle",
+      "firerate": 2,
+      "action": "String",
+      "modifiers": [
+        "mira"
+      ],
+      "content_hash": "926662360705b744"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Besta",
+      "slug": "besta",
+      "guid": "d18683ad-c2f6-5028-ade1-7d86a4398155",
+      "legacy_id": 62074,
+      "weapon_type": "Arma de projétil",
+      "game_item_type": "Gun",
+      "damage": 80,
+      "weight_kg": 3.5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 80,
+      "range_m": 120,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Bolt Bundle",
+      "firerate": 2,
+      "action": "String",
+      "modifiers": [
+        "mira"
+      ],
+      "content_hash": "70902c8516ff0d87"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Besta pesada",
+      "slug": "besta_pesada",
+      "guid": "ad7d3be3-2449-5ca1-85e2-b0a07f835be7",
+      "legacy_id": 62075,
+      "weapon_type": "Arma de projétil",
+      "game_item_type": "Gun",
+      "damage": 110,
+      "weight_kg": 5.0,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 84,
+      "range_m": 120,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Bolt Bundle",
+      "firerate": 2,
+      "action": "String",
+      "modifiers": [
+        "mira"
+      ],
+      "content_hash": "6ea35117d07e14b5"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Estilingue",
+      "slug": "estilingue",
+      "guid": "4145d4fa-2b1f-5fa3-9a87-8b058df9da45",
+      "legacy_id": 62076,
+      "weapon_type": "Arma de projétil",
+      "game_item_type": "Gun",
+      "damage": 15,
+      "weight_kg": 0.3,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 70,
+      "range_m": 120,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "magazine": "Bolt Bundle",
+      "firerate": 2,
+      "action": "String",
+      "modifiers": [
+        "mira"
+      ],
+      "content_hash": "92a284eea5528810"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Adaga",
+      "slug": "adaga",
+      "guid": "97f30c92-d86c-564e-90cd-6e701d259695",
+      "legacy_id": 62077,
+      "weapon_type": "Lâmina",
+      "game_item_type": "Melee",
+      "damage": 35,
+      "weight_kg": 0.5,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 75,
+      "range_m": 1.5,
+      "inventory_size": {
+        "x": 1,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 8,
+      "strength": 1.18,
+      "content_hash": "59348798524155eb"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Punhal",
+      "slug": "punhal",
+      "guid": "6c256168-cb42-5de3-984c-f407101dd1f6",
+      "legacy_id": 62078,
+      "weapon_type": "Lâmina",
+      "game_item_type": "Melee",
+      "damage": 42,
+      "weight_kg": 0.6,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 80,
+      "range_m": 1.5,
+      "inventory_size": {
+        "x": 1,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 8,
+      "strength": 1.21,
+      "content_hash": "2fa95d38b0da188a"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Kukri",
+      "slug": "kukri",
+      "guid": "80165c75-b664-504d-8b5b-cbe7029ebf95",
+      "legacy_id": 62079,
+      "weapon_type": "Lâmina",
+      "game_item_type": "Melee",
+      "damage": 65,
+      "weight_kg": 1.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 87,
+      "range_m": 1.5,
+      "inventory_size": {
+        "x": 1,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 8,
+      "strength": 1.32,
+      "content_hash": "d6c7383e7f1a2722"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Machete",
+      "slug": "machete",
+      "guid": "7b06e7ba-f9e3-5e39-910d-5c315be0ff89",
+      "legacy_id": 62080,
+      "weapon_type": "Lâmina",
+      "game_item_type": "Melee",
+      "damage": 58,
+      "weight_kg": 1.2,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 90,
+      "range_m": 1.5,
+      "inventory_size": {
+        "x": 1,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 10,
+      "strength": 1.29,
+      "content_hash": "3a0ae094c72340ff"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Foice",
+      "slug": "foice",
+      "guid": "b10988a4-55e5-5588-bdf2-d4e4efe529cc",
+      "legacy_id": 62081,
+      "weapon_type": "Ferramenta/arma",
+      "game_item_type": "Melee",
+      "damage": 54,
+      "weight_kg": 1.6,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 68,
+      "range_m": 2.1,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 13,
+      "strength": 1.27,
+      "content_hash": "3ce05df309cc69bd"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Foice de guerra",
+      "slug": "foice_de_guerra",
+      "guid": "7da74198-783a-511e-8ec4-b59769dd9c8d",
+      "legacy_id": 62082,
+      "weapon_type": "Haste",
+      "game_item_type": "Melee",
+      "damage": 78,
+      "weight_kg": 2.2,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 76,
+      "range_m": 3.0,
+      "inventory_size": {
+        "x": 1,
+        "y": 4
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 18,
+      "strength": 1.39,
+      "content_hash": "7d940054f247ff9b"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Kama",
+      "slug": "kama",
+      "guid": "0ce76eca-406e-559f-87e4-f95d3755395d",
+      "legacy_id": 62083,
+      "weapon_type": "Lâmina",
+      "game_item_type": "Melee",
+      "damage": 45,
+      "weight_kg": 0.8,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 72,
+      "range_m": 1.5,
+      "inventory_size": {
+        "x": 1,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 8,
+      "strength": 1.23,
+      "content_hash": "e72b4e811866f3d3"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Kusarigama",
+      "slug": "kusarigama",
+      "guid": "6f2a42dc-5007-5a3f-898e-152e7ec894b1",
+      "legacy_id": 62084,
+      "weapon_type": "Corrente/lâmina",
+      "game_item_type": "Melee",
+      "damage": 70,
+      "weight_kg": 1.8,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 68,
+      "range_m": 2.2,
+      "inventory_size": {
+        "x": 3,
+        "y": 2
+      },
+      "noise": "Médio",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 14,
+      "strength": 1.35,
+      "content_hash": "1e2fb981280ea0fd"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Chakram",
+      "slug": "chakram",
+      "guid": "202aa979-729d-5335-88d0-5f99fca9e985",
+      "legacy_id": 62085,
+      "weapon_type": "Arremesso",
+      "game_item_type": "Melee",
+      "damage": 55,
+      "weight_kg": 0.8,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 75,
+      "range_m": 1.7,
+      "inventory_size": {
+        "x": 1,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 8,
+      "strength": 1.27,
+      "content_hash": "019bbbf95e0a5898"
+    },
+    {
+      "kind": "weapon",
+      "era": "antiga",
+      "name": "Kunai",
+      "slug": "kunai",
+      "guid": "2cf6fe2b-e580-549f-94a0-92719bb406be",
+      "legacy_id": 62086,
+      "weapon_type": "Arremesso",
+      "game_item_type": "Melee",
+      "damage": 32,
+      "weight_kg": 0.2,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 70,
+      "range_m": 1.7,
+      "inventory_size": {
+        "x": 1,
+        "y": 2
+      },
+      "noise": "Baixo",
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "stamina": 8,
+      "strength": 1.16,
+      "content_hash": "82c08002d999e618"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete Kevlar básico",
+      "slug": "colete_kevlar_basico",
+      "guid": "b5e1e697-fa4f-5df2-a219-3d4f23484706",
+      "legacy_id": 62100,
+      "game_item_type": "Vest",
+      "protection_percent": 25,
+      "armor_multiplier": 0.75,
+      "weight_kg": 3.0,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 75,
+      "inventory_size": {
+        "x": 4,
+        "y": 3
+      },
+      "movement_speed_multiplier": 0.964,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "34fc3952fdcdfdf8"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete Kevlar reforçado",
+      "slug": "colete_kevlar_reforcado",
+      "guid": "bb59d862-e4f7-5ac3-8ed9-c3a66ee9829e",
+      "legacy_id": 62101,
+      "game_item_type": "Vest",
+      "protection_percent": 35,
+      "armor_multiplier": 0.65,
+      "weight_kg": 4.0,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 82,
+      "inventory_size": {
+        "x": 4,
+        "y": 3
+      },
+      "movement_speed_multiplier": 0.952,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "9319e4f8a7281808"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete IIIA",
+      "slug": "colete_iiia",
+      "guid": "d4bc839b-12cb-5bd3-8f31-a07c84f6403d",
+      "legacy_id": 62102,
+      "game_item_type": "Vest",
+      "protection_percent": 45,
+      "armor_multiplier": 0.55,
+      "weight_kg": 5.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 86,
+      "inventory_size": {
+        "x": 4,
+        "y": 3
+      },
+      "movement_speed_multiplier": 0.94,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "7d67dc777cbb68e6"
+    },
+    {
+      "kind": "armor",
+      "name": "Plate Carrier leve",
+      "slug": "plate_carrier_leve",
+      "guid": "f0616bf9-2762-558d-bd75-6fa79caf5547",
+      "legacy_id": 62103,
+      "game_item_type": "Vest",
+      "protection_percent": 50,
+      "armor_multiplier": 0.5,
+      "weight_kg": 6.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 88,
+      "inventory_size": {
+        "x": 4,
+        "y": 3
+      },
+      "movement_speed_multiplier": 0.928,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "4b5cc1e0c50b2baf"
+    },
+    {
+      "kind": "armor",
+      "name": "Plate Carrier militar",
+      "slug": "plate_carrier_militar",
+      "guid": "ddd72cad-0680-5912-b6d9-14f5a841caa4",
+      "legacy_id": 62104,
+      "game_item_type": "Vest",
+      "protection_percent": 60,
+      "armor_multiplier": 0.4,
+      "weight_kg": 8.0,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 92,
+      "inventory_size": {
+        "x": 4,
+        "y": 4
+      },
+      "movement_speed_multiplier": 0.904,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "6744d1e22f0dae34"
+    },
+    {
+      "kind": "armor",
+      "name": "Plate Carrier pesado",
+      "slug": "plate_carrier_pesado",
+      "guid": "41899535-2702-55a4-b221-390ae614e2f6",
+      "legacy_id": 62105,
+      "game_item_type": "Vest",
+      "protection_percent": 70,
+      "armor_multiplier": 0.3,
+      "weight_kg": 11.0,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 94,
+      "inventory_size": {
+        "x": 4,
+        "y": 6
+      },
+      "movement_speed_multiplier": 0.868,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "a6cb98003d063e71"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete NIJ III",
+      "slug": "colete_nij_iii",
+      "guid": "923d38ef-6e78-5b00-b641-186c853b8951",
+      "legacy_id": 62106,
+      "game_item_type": "Vest",
+      "protection_percent": 65,
+      "armor_multiplier": 0.35,
+      "weight_kg": 9.0,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 92,
+      "inventory_size": {
+        "x": 4,
+        "y": 4
+      },
+      "movement_speed_multiplier": 0.892,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "9777035da2446d4b"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete NIJ IV",
+      "slug": "colete_nij_iv",
+      "guid": "185b1406-eb69-5107-ad65-1eed93da903e",
+      "legacy_id": 62107,
+      "game_item_type": "Vest",
+      "protection_percent": 80,
+      "armor_multiplier": 0.2,
+      "weight_kg": 13.0,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "durability": 97,
+      "inventory_size": {
+        "x": 4,
+        "y": 6
+      },
+      "movement_speed_multiplier": 0.844,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "a5ad630fa95da901"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete policial",
+      "slug": "colete_policial",
+      "guid": "d7c0e1c5-2362-55ad-be5b-fcd63e3f59f8",
+      "legacy_id": 62108,
+      "game_item_type": "Vest",
+      "protection_percent": 35,
+      "armor_multiplier": 0.65,
+      "weight_kg": 4.5,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "durability": 80,
+      "inventory_size": {
+        "x": 4,
+        "y": 3
+      },
+      "movement_speed_multiplier": 0.946,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "5b1666d567ed90cc"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete SWAT",
+      "slug": "colete_swat",
+      "guid": "e078cf10-3b38-53d3-82cc-97a617930517",
+      "legacy_id": 62109,
+      "game_item_type": "Vest",
+      "protection_percent": 55,
+      "armor_multiplier": 0.45,
+      "weight_kg": 8.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 90,
+      "inventory_size": {
+        "x": 4,
+        "y": 4
+      },
+      "movement_speed_multiplier": 0.904,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "bccc71118475af7a"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete de forças especiais",
+      "slug": "colete_de_forcas_especiais",
+      "guid": "ca5323c8-ffcf-5639-b10d-abd0f2c94816",
+      "legacy_id": 62110,
+      "game_item_type": "Vest",
+      "protection_percent": 68,
+      "armor_multiplier": 0.32,
+      "weight_kg": 9.5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 94,
+      "inventory_size": {
+        "x": 4,
+        "y": 5
+      },
+      "movement_speed_multiplier": 0.886,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "b8d4be570401426a"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete modular MOLLE",
+      "slug": "colete_modular_molle",
+      "guid": "a9b61116-c049-58e7-8f1b-3aefeecec083",
+      "legacy_id": 62111,
+      "game_item_type": "Vest",
+      "protection_percent": 50,
+      "armor_multiplier": 0.5,
+      "weight_kg": 7.0,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "durability": 89,
+      "inventory_size": {
+        "x": 4,
+        "y": 4
+      },
+      "movement_speed_multiplier": 0.916,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "a9212d84ec53452b"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete balístico oculto",
+      "slug": "colete_balistico_oculto",
+      "guid": "fda53ca1-8dec-518c-9753-5b0cdd1cdd48",
+      "legacy_id": 62112,
+      "game_item_type": "Vest",
+      "protection_percent": 25,
+      "armor_multiplier": 0.75,
+      "weight_kg": 2.5,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "durability": 72,
+      "inventory_size": {
+        "x": 4,
+        "y": 3
+      },
+      "movement_speed_multiplier": 0.97,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "e7b70835ce4dd016"
+    },
+    {
+      "kind": "armor",
+      "name": "Colete com proteção lateral",
+      "slug": "colete_com_protecao_lateral",
+      "guid": "368ce386-bb06-5c5c-96e0-6745ac9860b1",
+      "legacy_id": 62113,
+      "game_item_type": "Vest",
+      "protection_percent": 65,
+      "armor_multiplier": 0.35,
+      "weight_kg": 10.0,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "durability": 91,
+      "inventory_size": {
+        "x": 4,
+        "y": 5
+      },
+      "movement_speed_multiplier": 0.88,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "2abf99dd87a21cb9"
+    },
+    {
+      "kind": "armor",
+      "name": "Armadura tática completa",
+      "slug": "armadura_tatica_completa",
+      "guid": "fa8f8e89-4033-52bb-938c-dea2bad457ef",
+      "legacy_id": 62114,
+      "game_item_type": "Vest",
+      "protection_percent": 75,
+      "armor_multiplier": 0.25,
+      "weight_kg": 14.0,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "durability": 96,
+      "inventory_size": {
+        "x": 4,
+        "y": 6
+      },
+      "movement_speed_multiplier": 0.832,
+      "conditions": [
+        "Novo",
+        "Usado",
+        "Danificado",
+        "Quebrado"
+      ],
+      "content_hash": "5dddbeb6e7e1f007"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Toyota Hilux",
+      "slug": "toyota_hilux",
+      "guid": "c7f409f0-2910-53a5-a139-47f60b4bcbff",
+      "legacy_id": 62200,
+      "engine": "Car",
+      "health": 1000,
+      "speed_kmh": 145,
+      "fuel_liters": 80,
+      "passengers": 5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "0960c85c9ef02635"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Land Cruiser",
+      "slug": "land_cruiser",
+      "guid": "07e6abe7-7dbf-5eaa-addd-041062485a77",
+      "legacy_id": 62201,
+      "engine": "Car",
+      "health": 1200,
+      "speed_kmh": 175,
+      "fuel_liters": 90,
+      "passengers": 7,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 13,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "d12072697bc2c215"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Ford F-150",
+      "slug": "ford_f_150",
+      "guid": "16b95733-a741-575d-a442-3c49b1a38836",
+      "legacy_id": 62202,
+      "engine": "Car",
+      "health": 1100,
+      "speed_kmh": 160,
+      "fuel_liters": 95,
+      "passengers": 5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "81391952e35627bf"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Ford Ranger",
+      "slug": "ford_ranger",
+      "guid": "aadce682-ab09-5b57-b089-f4b35a968978",
+      "legacy_id": 62203,
+      "engine": "Car",
+      "health": 1000,
+      "speed_kmh": 150,
+      "fuel_liters": 80,
+      "passengers": 5,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "294301d3eae27443"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Chevrolet Silverado",
+      "slug": "chevrolet_silverado",
+      "guid": "3acb6dd9-1b6d-57e7-bf2d-6cd66a44daa2",
+      "legacy_id": 62204,
+      "engine": "Car",
+      "health": 1150,
+      "speed_kmh": 155,
+      "fuel_liters": 100,
+      "passengers": 6,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 12,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "b23aed33a4ab6559"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Jeep Wrangler",
+      "slug": "jeep_wrangler",
+      "guid": "3dbedc33-f892-5b11-a8c1-7d3c60ce0a3e",
+      "legacy_id": 62205,
+      "engine": "Car",
+      "health": 950,
+      "speed_kmh": 150,
+      "fuel_liters": 70,
+      "passengers": 5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "1d60e090e01a5d43"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Jeep Gladiator",
+      "slug": "jeep_gladiator",
+      "guid": "27b51314-8f69-5bdb-9fa6-c1ca574d08b0",
+      "legacy_id": 62206,
+      "engine": "Car",
+      "health": 1050,
+      "speed_kmh": 145,
+      "fuel_liters": 80,
+      "passengers": 5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "b77bf49521fa1607"
+    },
+    {
+      "kind": "vehicle",
+      "name": "RAM 1500",
+      "slug": "ram_1500",
+      "guid": "50fd3d8e-735b-5ea9-96da-93abe6c60d47",
+      "legacy_id": 62207,
+      "engine": "Car",
+      "health": 1150,
+      "speed_kmh": 160,
+      "fuel_liters": 95,
+      "passengers": 5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "5caed0eea30b3451"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Dodge Charger",
+      "slug": "dodge_charger",
+      "guid": "49475dac-b74a-51a5-93b4-c64ce13c67f9",
+      "legacy_id": 62208,
+      "engine": "Car",
+      "health": 850,
+      "speed_kmh": 250,
+      "fuel_liters": 75,
+      "passengers": 5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "a0cf18cd5cb12f5d"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Ford Mustang",
+      "slug": "ford_mustang",
+      "guid": "276734b4-be15-5a84-8d6c-fe1b8aeb9451",
+      "legacy_id": 62209,
+      "engine": "Car",
+      "health": 800,
+      "speed_kmh": 250,
+      "fuel_liters": 60,
+      "passengers": 4,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "46ae5c5c9105a18c"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Subaru Forester",
+      "slug": "subaru_forester",
+      "guid": "9df0f3db-044d-53c5-9f99-2249bb241bf7",
+      "legacy_id": 62210,
+      "engine": "Car",
+      "health": 900,
+      "speed_kmh": 180,
+      "fuel_liters": 65,
+      "passengers": 5,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "ba9bca246980c652"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Toyota Corolla",
+      "slug": "toyota_corolla",
+      "guid": "0467e2d0-b936-50d6-9cc7-c4f7552b92c5",
+      "legacy_id": 62211,
+      "engine": "Car",
+      "health": 650,
+      "speed_kmh": 180,
+      "fuel_liters": 50,
+      "passengers": 5,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "e21bb44ec797c53f"
+    },
+    {
+      "kind": "vehicle",
+      "name": "BMW X5",
+      "slug": "bmw_x5",
+      "guid": "d800fccf-73ce-54ce-9ffd-3b527af4cc60",
+      "legacy_id": 62212,
+      "engine": "Car",
+      "health": 900,
+      "speed_kmh": 220,
+      "fuel_liters": 80,
+      "passengers": 5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "141ba759ae150b45"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Mercedes G-Class",
+      "slug": "mercedes_g_class",
+      "guid": "2850450a-4cee-5a23-9e75-85137a0ebb51",
+      "legacy_id": 62213,
+      "engine": "Car",
+      "health": 1200,
+      "speed_kmh": 210,
+      "fuel_liters": 100,
+      "passengers": 5,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "8fc4a61d4a401e15"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Suzuki Jimny",
+      "slug": "suzuki_jimny",
+      "guid": "a14e1d54-e881-536c-9666-d3912d4ca2b3",
+      "legacy_id": 62214,
+      "engine": "Car",
+      "health": 700,
+      "speed_kmh": 145,
+      "fuel_liters": 40,
+      "passengers": 4,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "7c1175027bb0e442"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Mitsubishi Pajero",
+      "slug": "mitsubishi_pajero",
+      "guid": "c82fbbef-008f-576f-94cd-2170d257f286",
+      "legacy_id": 62215,
+      "engine": "Car",
+      "health": 950,
+      "speed_kmh": 170,
+      "fuel_liters": 90,
+      "passengers": 7,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 13,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "3ffa91a1920fc71a"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Nissan Patrol",
+      "slug": "nissan_patrol",
+      "guid": "37d6d56d-3978-52a8-9a5b-1a70c7c97324",
+      "legacy_id": 62216,
+      "engine": "Car",
+      "health": 1150,
+      "speed_kmh": 185,
+      "fuel_liters": 100,
+      "passengers": 7,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 13,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "d27ec2eed69aad62"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Unimog",
+      "slug": "unimog",
+      "guid": "05887363-7a5b-5361-915a-24a605cc1d98",
+      "legacy_id": 62217,
+      "engine": "Car",
+      "health": 1800,
+      "speed_kmh": 110,
+      "fuel_liters": 150,
+      "passengers": 3,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "31e7c1ae7f9218da"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Hummer H2",
+      "slug": "hummer_h2",
+      "guid": "799c8416-be42-5359-a4bb-8c3e0c2ea8c7",
+      "legacy_id": 62218,
+      "engine": "Car",
+      "health": 1400,
+      "speed_kmh": 160,
+      "fuel_liters": 120,
+      "passengers": 6,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "trunk_slots": 12,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "a5fe0f00beb96695"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Lada Niva",
+      "slug": "lada_niva",
+      "guid": "e4d6379f-2e4d-592b-829b-e167b2488e6a",
+      "legacy_id": 62219,
+      "engine": "Car",
+      "health": 750,
+      "speed_kmh": 140,
+      "fuel_liters": 50,
+      "passengers": 5,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "4baf0a70eb975469"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Ambulância",
+      "slug": "ambulancia",
+      "guid": "92ad348d-ad95-585a-ae1f-98ab204f1f06",
+      "legacy_id": 62220,
+      "engine": "Car",
+      "health": 1200,
+      "speed_kmh": 130,
+      "fuel_liters": 90,
+      "passengers": 8,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "9e61c689914867ba"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Viatura policial",
+      "slug": "viatura_policial",
+      "guid": "ddec1fcf-fc78-55ea-a891-973d120434d5",
+      "legacy_id": 62221,
+      "engine": "Car",
+      "health": 900,
+      "speed_kmh": 200,
+      "fuel_liters": 70,
+      "passengers": 5,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "21925ff1884d9900"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Viatura SWAT",
+      "slug": "viatura_swat",
+      "guid": "98a0a287-526d-5d36-9419-7c680abe21e8",
+      "legacy_id": 62222,
+      "engine": "Car",
+      "health": 1300,
+      "speed_kmh": 150,
+      "fuel_liters": 100,
+      "passengers": 8,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "e0528bafcffaec9d"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Caminhão de bombeiros",
+      "slug": "caminhao_de_bombeiros",
+      "guid": "9726a2f2-6762-5400-8a87-9ab4e5e62d2c",
+      "legacy_id": 62223,
+      "engine": "Car",
+      "health": 2000,
+      "speed_kmh": 100,
+      "fuel_liters": 180,
+      "passengers": 6,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 16,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "95dad90d45273864"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Caminhão-tanque",
+      "slug": "caminhao_tanque",
+      "guid": "14731aea-9289-50b9-9111-46091fc7f4cf",
+      "legacy_id": 62224,
+      "engine": "Car",
+      "health": 1800,
+      "speed_kmh": 105,
+      "fuel_liters": 250,
+      "passengers": 3,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 16,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "9b8573396c642ae2"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Caminhão de combustível",
+      "slug": "caminhao_de_combustivel",
+      "guid": "fb0d360f-4d89-55ef-8d70-a5942ef891e8",
+      "legacy_id": 62225,
+      "engine": "Car",
+      "health": 1700,
+      "speed_kmh": 100,
+      "fuel_liters": 300,
+      "passengers": 3,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 16,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "9a89f4ee9180a36f"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Van de manutenção",
+      "slug": "van_de_manutencao",
+      "guid": "a0923bef-29a0-5e25-9d9c-db826122f6a9",
+      "legacy_id": 62226,
+      "engine": "Car",
+      "health": 950,
+      "speed_kmh": 135,
+      "fuel_liters": 80,
+      "passengers": 6,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "trunk_slots": 12,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "9bba0411cb4b1e09"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Motorhome",
+      "slug": "motorhome",
+      "guid": "b6e208bb-e69d-5651-a55d-bba418b0d0dc",
+      "legacy_id": 62227,
+      "engine": "Car",
+      "health": 1600,
+      "speed_kmh": 100,
+      "fuel_liters": 150,
+      "passengers": 8,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 2,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "cbc6738da163db14"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Ônibus escolar",
+      "slug": "onibus_escolar",
+      "guid": "0cf32dfb-73a0-5275-86f7-7fa8a6992a82",
+      "legacy_id": 62228,
+      "engine": "Car",
+      "health": 1800,
+      "speed_kmh": 110,
+      "fuel_liters": 180,
+      "passengers": 30,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 34,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "df4fc556d72f979a"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Ônibus urbano",
+      "slug": "onibus_urbano",
+      "guid": "d9ae48fe-37c2-5081-9e43-dde2884e22e1",
+      "legacy_id": 62229,
+      "engine": "Car",
+      "health": 2000,
+      "speed_kmh": 100,
+      "fuel_liters": 200,
+      "passengers": 50,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 36,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "0b74a0b2c95453ba"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Caminhão blindado",
+      "slug": "caminhao_blindado",
+      "guid": "dd835830-5574-5741-8b2e-7872c642d22d",
+      "legacy_id": 62230,
+      "engine": "Car",
+      "health": 2200,
+      "speed_kmh": 100,
+      "fuel_liters": 160,
+      "passengers": 6,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "trunk_slots": 16,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "966def1171c9c81d"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Jipe militar",
+      "slug": "jipe_militar",
+      "guid": "4ae5a345-058c-57de-b452-326004b687b9",
+      "legacy_id": 62231,
+      "engine": "Car",
+      "health": 1500,
+      "speed_kmh": 140,
+      "fuel_liters": 100,
+      "passengers": 5,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "c55f54e0f196ace3"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Humvee",
+      "slug": "humvee",
+      "guid": "f8db14ce-1837-5669-a25f-766a837a5c22",
+      "legacy_id": 62232,
+      "engine": "Car",
+      "health": 1800,
+      "speed_kmh": 125,
+      "fuel_liters": 95,
+      "passengers": 6,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "trunk_slots": 12,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "7ec254c964022455"
+    },
+    {
+      "kind": "vehicle",
+      "name": "MRAP",
+      "slug": "mrap",
+      "guid": "ee0d8888-cc58-5726-94ef-cdeaaabf4057",
+      "legacy_id": 62233,
+      "engine": "Car",
+      "health": 3000,
+      "speed_kmh": 100,
+      "fuel_liters": 200,
+      "passengers": 10,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "trunk_slots": 16,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "0c20d6e1fff219db"
+    },
+    {
+      "kind": "vehicle",
+      "name": "M113",
+      "slug": "m113",
+      "guid": "bcbe779d-ec4a-559c-9a8e-157398b03e00",
+      "legacy_id": 62234,
+      "engine": "Car",
+      "health": 3500,
+      "speed_kmh": 65,
+      "fuel_liters": 300,
+      "passengers": 11,
+      "rarity_pt": "Lendário",
+      "rarity": "Legendary",
+      "trunk_slots": 17,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "404a2502d47c24d5"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Caminhão militar",
+      "slug": "caminhao_militar",
+      "guid": "d3061954-e618-5fe0-aa8e-f3e950e19bee",
+      "legacy_id": 62235,
+      "engine": "Car",
+      "health": 2300,
+      "speed_kmh": 100,
+      "fuel_liters": 220,
+      "passengers": 20,
+      "rarity_pt": "Épico",
+      "rarity": "Epic",
+      "trunk_slots": 24,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "696979c80dd856b2"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Honda Africa Twin",
+      "slug": "honda_africa_twin",
+      "guid": "fb322671-c5ac-544f-afb8-60d83fcc36bf",
+      "legacy_id": 62236,
+      "engine": "Car",
+      "health": 400,
+      "speed_kmh": 210,
+      "fuel_liters": 24,
+      "passengers": 2,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 2,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "b7bd7b62f460f461"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Yamaha Tenere",
+      "slug": "yamaha_tenere",
+      "guid": "59cb5690-22ba-592b-a499-57117345d9b4",
+      "legacy_id": 62237,
+      "engine": "Car",
+      "health": 380,
+      "speed_kmh": 190,
+      "fuel_liters": 23,
+      "passengers": 2,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 2,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "399fd534563855e2"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Kawasaki KLR650",
+      "slug": "kawasaki_klr650",
+      "guid": "eb4f0603-8fd1-548f-b97b-982630ac9bdc",
+      "legacy_id": 62238,
+      "engine": "Car",
+      "health": 350,
+      "speed_kmh": 170,
+      "fuel_liters": 23,
+      "passengers": 2,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "trunk_slots": 2,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "38a95d1b061b0e19"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Suzuki DR-Z400",
+      "slug": "suzuki_dr_z400",
+      "guid": "24a39e91-6eb9-5741-be1c-f556e90f9d85",
+      "legacy_id": 62239,
+      "engine": "Car",
+      "health": 300,
+      "speed_kmh": 145,
+      "fuel_liters": 10,
+      "passengers": 2,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "trunk_slots": 2,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "b513b5f5332a1cf7"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Quadriciclo",
+      "slug": "quadriciclo",
+      "guid": "e6bd215a-1731-5d1a-aa38-78ce4d22f81c",
+      "legacy_id": 62240,
+      "engine": "Car",
+      "health": 300,
+      "speed_kmh": 90,
+      "fuel_liters": 20,
+      "passengers": 2,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "aad8100d4b56d732"
+    },
+    {
+      "kind": "vehicle",
+      "name": "UTV",
+      "slug": "utv",
+      "guid": "f9bf4c40-cd7d-585f-8540-d891c67e643e",
+      "legacy_id": 62241,
+      "engine": "Car",
+      "health": 500,
+      "speed_kmh": 100,
+      "fuel_liters": 40,
+      "passengers": 4,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "2ecbe93a50d3145a"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Buggy",
+      "slug": "buggy",
+      "guid": "8bcf8e8e-3d52-5845-b72b-c42bebe62c16",
+      "legacy_id": 62242,
+      "engine": "Car",
+      "health": 350,
+      "speed_kmh": 130,
+      "fuel_liters": 35,
+      "passengers": 2,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "636df12143e9d44c"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Lancha",
+      "slug": "lancha",
+      "guid": "d75407dd-9802-5368-b64e-670b5a149436",
+      "legacy_id": 62243,
+      "engine": "Boat",
+      "health": 1000,
+      "speed_kmh": 70,
+      "fuel_liters": 150,
+      "passengers": 8,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 14,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "ed533602459119f0"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Barco de pesca",
+      "slug": "barco_de_pesca",
+      "guid": "de20e791-7418-528c-a3d3-2865a9f13391",
+      "legacy_id": 62244,
+      "engine": "Boat",
+      "health": 850,
+      "speed_kmh": 45,
+      "fuel_liters": 100,
+      "passengers": 6,
+      "rarity_pt": "Incomum",
+      "rarity": "Uncommon",
+      "trunk_slots": 12,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "933a638810ea0258"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Bote inflável",
+      "slug": "bote_inflavel",
+      "guid": "fb75c22f-48c3-534f-b74b-b7c7dc276b3c",
+      "legacy_id": 62245,
+      "engine": "Boat",
+      "health": 250,
+      "speed_kmh": 15,
+      "fuel_liters": 0,
+      "passengers": 6,
+      "rarity_pt": "Comum",
+      "rarity": "Common",
+      "trunk_slots": 4,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "fuel_note": "Não utiliza combustível",
+      "content_hash": "755224d894b10add"
+    },
+    {
+      "kind": "vehicle",
+      "name": "Jet ski",
+      "slug": "jet_ski",
+      "guid": "63a704ea-cb5f-56a9-b39a-bf33d050007a",
+      "legacy_id": 62246,
+      "engine": "Boat",
+      "health": 400,
+      "speed_kmh": 100,
+      "fuel_liters": 70,
+      "passengers": 2,
+      "rarity_pt": "Raro",
+      "rarity": "Rare",
+      "trunk_slots": 2,
+      "state_fields": [
+        "Estado",
+        "Pneus",
+        "Motor",
+        "Ruído"
+      ],
+      "upgrades": [
+        "blindagem",
+        "bagageiro",
+        "guincho",
+        "proteção frontal"
+      ],
+      "content_hash": "57e0dc27a2a088ac"
+    }
+  ],
+  "magazines": [
+    {
+      "kind": "magazine",
+      "name": "Pistol Magazine",
+      "slug": "pistol_magazine",
+      "guid": "18a9ec86-f771-565e-951f-29d9bc7df285",
+      "legacy_id": 62500,
+      "game_item_type": "Magazine",
+      "amount": 17,
+      "rarity": "Common",
+      "content_hash": "4485122aa03aeb42"
+    },
+    {
+      "kind": "magazine",
+      "name": "SMG Magazine",
+      "slug": "smg_magazine",
+      "guid": "aeefc982-f29b-5a37-b7f1-901b99bbd007",
+      "legacy_id": 62501,
+      "game_item_type": "Magazine",
+      "amount": 30,
+      "rarity": "Uncommon",
+      "content_hash": "291d3c0c0548b52a"
+    },
+    {
+      "kind": "magazine",
+      "name": "Rifle Magazine",
+      "slug": "rifle_magazine",
+      "guid": "ff2a6084-8d00-5283-9d8c-469bbcfe10f6",
+      "legacy_id": 62502,
+      "game_item_type": "Magazine",
+      "amount": 30,
+      "rarity": "Uncommon",
+      "content_hash": "3a9e2540df12c361"
+    },
+    {
+      "kind": "magazine",
+      "name": "Heavy Rifle Magazine",
+      "slug": "heavy_rifle_magazine",
+      "guid": "ac584dd4-20bb-538c-bcbd-3cb62d51a4a1",
+      "legacy_id": 62503,
+      "game_item_type": "Magazine",
+      "amount": 20,
+      "rarity": "Rare",
+      "content_hash": "4300c2f42ebe803e"
+    },
+    {
+      "kind": "magazine",
+      "name": "Precision Magazine",
+      "slug": "precision_magazine",
+      "guid": "8bf7f6b9-02e2-53e8-975a-d7a1875744f2",
+      "legacy_id": 62504,
+      "game_item_type": "Magazine",
+      "amount": 5,
+      "rarity": "Rare",
+      "content_hash": "905ecbad7f661886"
+    },
+    {
+      "kind": "magazine",
+      "name": "DMR Magazine",
+      "slug": "dmr_magazine",
+      "guid": "1029a5d0-c4d5-5c54-8e39-e8b612861635",
+      "legacy_id": 62505,
+      "game_item_type": "Magazine",
+      "amount": 20,
+      "rarity": "Rare",
+      "content_hash": "95d357c7f6b44f67"
+    },
+    {
+      "kind": "magazine",
+      "name": "Anti-Materiel Magazine",
+      "slug": "anti_materiel_magazine",
+      "guid": "6673afc8-6e70-58a2-9504-921be2ba93e8",
+      "legacy_id": 62506,
+      "game_item_type": "Magazine",
+      "amount": 5,
+      "rarity": "Epic",
+      "content_hash": "dc96541b19dd7591"
+    },
+    {
+      "kind": "magazine",
+      "name": "Shotgun Shells",
+      "slug": "shotgun_shells",
+      "guid": "5e2d42db-18fe-5e82-9c0d-7efb6909f68e",
+      "legacy_id": 62507,
+      "game_item_type": "Magazine",
+      "amount": 8,
+      "rarity": "Common",
+      "content_hash": "f9abb512f6a2c3fe"
+    },
+    {
+      "kind": "magazine",
+      "name": "LMG Belt",
+      "slug": "lmg_belt",
+      "guid": "987bf602-7778-5bd2-b073-be3736e2050d",
+      "legacy_id": 62508,
+      "game_item_type": "Magazine",
+      "amount": 100,
+      "rarity": "Epic",
+      "content_hash": "3b39a34d029a9d3b"
+    },
+    {
+      "kind": "magazine",
+      "name": "Minigun Belt",
+      "slug": "minigun_belt",
+      "guid": "5aa92364-a4a8-5e04-8681-6285b66e9aef",
+      "legacy_id": 62509,
+      "game_item_type": "Magazine",
+      "amount": 200,
+      "rarity": "Legendary",
+      "content_hash": "b57daa7552a2d2fd"
+    },
+    {
+      "kind": "magazine",
+      "name": "Arrow Bundle",
+      "slug": "arrow_bundle",
+      "guid": "98acd8ff-e117-553f-8c60-9892876c5dd5",
+      "legacy_id": 62510,
+      "game_item_type": "Magazine",
+      "amount": 12,
+      "rarity": "Uncommon",
+      "content_hash": "003dc5a49cfca9ba"
+    },
+    {
+      "kind": "magazine",
+      "name": "Bolt Bundle",
+      "slug": "bolt_bundle",
+      "guid": "952b4643-18af-55a5-99b0-2088058151f4",
+      "legacy_id": 62511,
+      "game_item_type": "Magazine",
+      "amount": 8,
+      "rarity": "Rare",
+      "content_hash": "31acfe768e651427"
+    }
+  ],
+  "statistics": {
+    "weapons": 87,
+    "modern_weapons": 48,
+    "ancient_weapons": 39,
+    "armor": 15,
+    "vehicles": 47,
+    "magazines": 12,
+    "total_runtime_assets": 161
+  }
+}

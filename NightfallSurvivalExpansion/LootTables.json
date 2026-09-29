@@ -1,0 +1,825 @@
+{
+  "schema": "nightfall-loot/v1",
+  "weights_by_rarity": {
+    "Common": 60,
+    "Uncommon": 25,
+    "Rare": 10,
+    "Epic": 4,
+    "Legendary": 1
+  },
+  "tables": {
+    "civilian": [
+      {
+        "guid": "512cea12-0574-5052-909b-7665ed0377a5",
+        "name": "Glock 17",
+        "weight": 60
+      },
+      {
+        "guid": "2356589a-1055-5670-bdc7-ae4ad7d67e4d",
+        "name": "Glock 19",
+        "weight": 60
+      },
+      {
+        "guid": "69d61ea6-8cc4-5282-a2d7-55dc370bf2b2",
+        "name": "Beretta 92FS",
+        "weight": 60
+      },
+      {
+        "guid": "e0227c02-5f5f-535d-ace1-76a486fe737e",
+        "name": "AK-47",
+        "weight": 60
+      },
+      {
+        "guid": "79ed9efa-e67e-5844-a52e-be4a5d147176",
+        "name": "AKM",
+        "weight": 60
+      },
+      {
+        "guid": "bfa9aa91-6361-54f3-a008-4843a0e8b1d4",
+        "name": "Remington 870",
+        "weight": 60
+      },
+      {
+        "guid": "8a887a80-95ae-5d8e-a7c1-ca4d11814a01",
+        "name": "Mossberg 500",
+        "weight": 60
+      },
+      {
+        "guid": "709b6382-4777-503f-9d44-d77ed093a0b1",
+        "name": "Lança",
+        "weight": 60
+      },
+      {
+        "guid": "c57ee716-78da-58e9-ae6d-00a0e4ee0408",
+        "name": "Clava",
+        "weight": 60
+      },
+      {
+        "guid": "aad1e4b6-cb28-580a-a300-e0b23136b749",
+        "name": "Porrete",
+        "weight": 60
+      },
+      {
+        "guid": "d39c08ff-a0fd-5ff3-b51a-d950f1b176b0",
+        "name": "Bastão",
+        "weight": 60
+      },
+      {
+        "guid": "4145d4fa-2b1f-5fa3-9a87-8b058df9da45",
+        "name": "Estilingue",
+        "weight": 60
+      },
+      {
+        "guid": "97f30c92-d86c-564e-90cd-6e701d259695",
+        "name": "Adaga",
+        "weight": 60
+      },
+      {
+        "guid": "7b06e7ba-f9e3-5e39-910d-5c315be0ff89",
+        "name": "Machete",
+        "weight": 60
+      },
+      {
+        "guid": "b10988a4-55e5-5588-bdf2-d4e4efe529cc",
+        "name": "Foice",
+        "weight": 60
+      },
+      {
+        "guid": "b5e1e697-fa4f-5df2-a219-3d4f23484706",
+        "name": "Colete Kevlar básico",
+        "weight": 60
+      },
+      {
+        "guid": "d7c0e1c5-2362-55ad-be5b-fcd63e3f59f8",
+        "name": "Colete policial",
+        "weight": 60
+      },
+      {
+        "guid": "0467e2d0-b936-50d6-9cc7-c4f7552b92c5",
+        "name": "Toyota Corolla",
+        "weight": 60
+      },
+      {
+        "guid": "e4d6379f-2e4d-592b-829b-e167b2488e6a",
+        "name": "Lada Niva",
+        "weight": 60
+      },
+      {
+        "guid": "24a39e91-6eb9-5741-be1c-f556e90f9d85",
+        "name": "Suzuki DR-Z400",
+        "weight": 60
+      },
+      {
+        "guid": "fb75c22f-48c3-534f-b74b-b7c7dc276b3c",
+        "name": "Bote inflável",
+        "weight": 60
+      },
+      {
+        "guid": "18a9ec86-f771-565e-951f-29d9bc7df285",
+        "name": "Pistol Magazine",
+        "weight": 60
+      },
+      {
+        "guid": "5e2d42db-18fe-5e82-9c0d-7efb6909f68e",
+        "name": "Shotgun Shells",
+        "weight": 60
+      }
+    ],
+    "police_military": [
+      {
+        "guid": "3b8f28e3-4989-50ee-935c-7925bab59296",
+        "name": "SIG P320",
+        "weight": 25
+      },
+      {
+        "guid": "4606f293-72b5-55b1-ae94-26d0132805c7",
+        "name": "UMP45",
+        "weight": 25
+      },
+      {
+        "guid": "8c8e44e0-5df6-5764-ab9e-5cf9391e60de",
+        "name": "Uzi",
+        "weight": 25
+      },
+      {
+        "guid": "f05f07b0-d387-578a-a731-925fd3cd5490",
+        "name": "AR-15",
+        "weight": 25
+      },
+      {
+        "guid": "b211307a-11aa-5dac-9a5d-c3a0dcd3ff3a",
+        "name": "AK-74",
+        "weight": 25
+      },
+      {
+        "guid": "30013e64-a6a6-54ad-ada1-5b1a2d4b53b0",
+        "name": "M16A4",
+        "weight": 25
+      },
+      {
+        "guid": "7164bf12-faaf-5d79-8e54-59520b582a75",
+        "name": "Remington 700",
+        "weight": 25
+      },
+      {
+        "guid": "e846ffde-f68d-5861-a62f-06b56e068ad5",
+        "name": "Mossberg 590",
+        "weight": 25
+      },
+      {
+        "guid": "d03dcf7b-f90a-5316-82d4-932c01d9cb90",
+        "name": "RPK",
+        "weight": 25
+      },
+      {
+        "guid": "3c2a1d1b-689a-5734-9628-8b4eaa911d2b",
+        "name": "Espada medieval",
+        "weight": 25
+      },
+      {
+        "guid": "9f2521fb-f52d-551c-891f-2115ea51e085",
+        "name": "Sabre",
+        "weight": 25
+      },
+      {
+        "guid": "7e71585f-4927-5c41-b736-4d5c825c1504",
+        "name": "Rapieira",
+        "weight": 25
+      },
+      {
+        "guid": "52b1437b-b090-52a9-8424-37fd9ae977b2",
+        "name": "Tomahawk",
+        "weight": 25
+      },
+      {
+        "guid": "48a4e03c-c94d-555d-a0ae-4fc310fb851f",
+        "name": "Azagaia",
+        "weight": 25
+      },
+      {
+        "guid": "f0d45dfb-461c-5200-80ac-d02cb19af1d0",
+        "name": "Arco recurvo",
+        "weight": 25
+      },
+      {
+        "guid": "6c256168-cb42-5de3-984c-f407101dd1f6",
+        "name": "Punhal",
+        "weight": 25
+      },
+      {
+        "guid": "2cf6fe2b-e580-549f-94a0-92719bb406be",
+        "name": "Kunai",
+        "weight": 25
+      },
+      {
+        "guid": "bb59d862-e4f7-5ac3-8ed9-c3a66ee9829e",
+        "name": "Colete Kevlar reforçado",
+        "weight": 25
+      },
+      {
+        "guid": "fda53ca1-8dec-518c-9753-5b0cdd1cdd48",
+        "name": "Colete balístico oculto",
+        "weight": 25
+      },
+      {
+        "guid": "aadce682-ab09-5b57-b089-f4b35a968978",
+        "name": "Ford Ranger",
+        "weight": 25
+      },
+      {
+        "guid": "9df0f3db-044d-53c5-9f99-2249bb241bf7",
+        "name": "Subaru Forester",
+        "weight": 25
+      },
+      {
+        "guid": "a14e1d54-e881-536c-9666-d3912d4ca2b3",
+        "name": "Suzuki Jimny",
+        "weight": 25
+      },
+      {
+        "guid": "a0923bef-29a0-5e25-9d9c-db826122f6a9",
+        "name": "Van de manutenção",
+        "weight": 25
+      },
+      {
+        "guid": "eb4f0603-8fd1-548f-b97b-982630ac9bdc",
+        "name": "Kawasaki KLR650",
+        "weight": 25
+      },
+      {
+        "guid": "e6bd215a-1731-5d1a-aa38-78ce4d22f81c",
+        "name": "Quadriciclo",
+        "weight": 25
+      },
+      {
+        "guid": "8bcf8e8e-3d52-5845-b72b-c42bebe62c16",
+        "name": "Buggy",
+        "weight": 25
+      },
+      {
+        "guid": "de20e791-7418-528c-a3d3-2865a9f13391",
+        "name": "Barco de pesca",
+        "weight": 25
+      },
+      {
+        "guid": "aeefc982-f29b-5a37-b7f1-901b99bbd007",
+        "name": "SMG Magazine",
+        "weight": 25
+      },
+      {
+        "guid": "ff2a6084-8d00-5283-9d8c-469bbcfe10f6",
+        "name": "Rifle Magazine",
+        "weight": 25
+      },
+      {
+        "guid": "98acd8ff-e117-553f-8c60-9892876c5dd5",
+        "name": "Arrow Bundle",
+        "weight": 25
+      }
+    ],
+    "special_area": [
+      {
+        "guid": "6df1be39-c998-5093-9b5e-755c9cd55361",
+        "name": "Glock 18",
+        "weight": 10
+      },
+      {
+        "guid": "c710bc8b-6ee9-54e9-bcb4-c954384c1e48",
+        "name": "SIG P226",
+        "weight": 10
+      },
+      {
+        "guid": "eb9ebb5e-5d30-56e3-9774-1ced9725893f",
+        "name": "MP5",
+        "weight": 10
+      },
+      {
+        "guid": "f5635410-35a6-51c4-9ee3-c86466b0ab1a",
+        "name": "P90",
+        "weight": 10
+      },
+      {
+        "guid": "16f4ab54-de2f-5db9-adf2-67296906a433",
+        "name": "M4A1",
+        "weight": 10
+      },
+      {
+        "guid": "581ddec8-a55e-5aee-a44c-d7e84107d503",
+        "name": "AK-12",
+        "weight": 10
+      },
+      {
+        "guid": "7036f907-89e8-5c44-9da6-bb1c3149290d",
+        "name": "AUG",
+        "weight": 10
+      },
+      {
+        "guid": "d1166add-294a-57f4-b4ef-708a703d3c06",
+        "name": "FAMAS",
+        "weight": 10
+      },
+      {
+        "guid": "2549ea6a-5931-5370-92a5-7edd6e982b57",
+        "name": "G36",
+        "weight": 10
+      },
+      {
+        "guid": "c3fcdabc-06cd-5181-b0de-6365da7c0b28",
+        "name": "M24",
+        "weight": 10
+      },
+      {
+        "guid": "d76220e2-3a65-5a01-a880-b2f72a35fa4f",
+        "name": "Dragunov SVD",
+        "weight": 10
+      },
+      {
+        "guid": "3fdadb07-4c39-5274-85f4-ce10d7a66ea8",
+        "name": "Benelli M4",
+        "weight": 10
+      },
+      {
+        "guid": "0a4e39fc-d03b-5c15-8151-6aebf1c84a6c",
+        "name": "Saiga-12",
+        "weight": 10
+      },
+      {
+        "guid": "468c44ca-2b2d-5f76-90e4-dd1d12920b03",
+        "name": "PKM",
+        "weight": 10
+      },
+      {
+        "guid": "68651f8a-2390-5a79-a0a1-e3b3b2025db3",
+        "name": "Espada longa",
+        "weight": 10
+      },
+      {
+        "guid": "5f2ff1f2-1523-5a4d-8c4e-f93ac7f16a09",
+        "name": "Gládio",
+        "weight": 10
+      },
+      {
+        "guid": "39563821-a045-587b-b6f8-4f4b56697b58",
+        "name": "Wakizashi",
+        "weight": 10
+      },
+      {
+        "guid": "92e39db9-d7f9-5cb7-b46c-f18ac4708310",
+        "name": "Espada viking",
+        "weight": 10
+      },
+      {
+        "guid": "3dc612eb-e3de-5599-9ba0-2293c3f3fa65",
+        "name": "Scimitarra",
+        "weight": 10
+      },
+      {
+        "guid": "9f24cc9d-08ed-587a-8703-4d274d5be748",
+        "name": "Machado viking",
+        "weight": 10
+      },
+      {
+        "guid": "85800b4c-7173-5a16-a172-74fd1dae9ab6",
+        "name": "Machado de duas mãos",
+        "weight": 10
+      },
+      {
+        "guid": "c661f837-7237-551f-afb1-d50005be642a",
+        "name": "Tridente",
+        "weight": 10
+      },
+      {
+        "guid": "33f3bed4-ce26-5c07-a324-193282b88855",
+        "name": "Maça medieval",
+        "weight": 10
+      },
+      {
+        "guid": "54f58290-e96d-53a0-8c09-e3bd4e7b332c",
+        "name": "Martelo de guerra",
+        "weight": 10
+      },
+      {
+        "guid": "e546ff2d-a2e3-59e1-8b7a-3d1517a46fc9",
+        "name": "Arco longo",
+        "weight": 10
+      },
+      {
+        "guid": "d18683ad-c2f6-5028-ade1-7d86a4398155",
+        "name": "Besta",
+        "weight": 10
+      },
+      {
+        "guid": "80165c75-b664-504d-8b5b-cbe7029ebf95",
+        "name": "Kukri",
+        "weight": 10
+      },
+      {
+        "guid": "7da74198-783a-511e-8ec4-b59769dd9c8d",
+        "name": "Foice de guerra",
+        "weight": 10
+      },
+      {
+        "guid": "0ce76eca-406e-559f-87e4-f95d3755395d",
+        "name": "Kama",
+        "weight": 10
+      },
+      {
+        "guid": "d4bc839b-12cb-5bd3-8f31-a07c84f6403d",
+        "name": "Colete IIIA",
+        "weight": 10
+      },
+      {
+        "guid": "f0616bf9-2762-558d-bd75-6fa79caf5547",
+        "name": "Plate Carrier leve",
+        "weight": 10
+      },
+      {
+        "guid": "e078cf10-3b38-53d3-82cc-97a617930517",
+        "name": "Colete SWAT",
+        "weight": 10
+      },
+      {
+        "guid": "a9b61116-c049-58e7-8f1b-3aefeecec083",
+        "name": "Colete modular MOLLE",
+        "weight": 10
+      },
+      {
+        "guid": "c7f409f0-2910-53a5-a139-47f60b4bcbff",
+        "name": "Toyota Hilux",
+        "weight": 10
+      },
+      {
+        "guid": "16b95733-a741-575d-a442-3c49b1a38836",
+        "name": "Ford F-150",
+        "weight": 10
+      },
+      {
+        "guid": "3acb6dd9-1b6d-57e7-bf2d-6cd66a44daa2",
+        "name": "Chevrolet Silverado",
+        "weight": 10
+      },
+      {
+        "guid": "3dbedc33-f892-5b11-a8c1-7d3c60ce0a3e",
+        "name": "Jeep Wrangler",
+        "weight": 10
+      },
+      {
+        "guid": "27b51314-8f69-5bdb-9fa6-c1ca574d08b0",
+        "name": "Jeep Gladiator",
+        "weight": 10
+      },
+      {
+        "guid": "50fd3d8e-735b-5ea9-96da-93abe6c60d47",
+        "name": "RAM 1500",
+        "weight": 10
+      },
+      {
+        "guid": "c82fbbef-008f-576f-94cd-2170d257f286",
+        "name": "Mitsubishi Pajero",
+        "weight": 10
+      },
+      {
+        "guid": "92ad348d-ad95-585a-ae1f-98ab204f1f06",
+        "name": "Ambulância",
+        "weight": 10
+      },
+      {
+        "guid": "ddec1fcf-fc78-55ea-a891-973d120434d5",
+        "name": "Viatura policial",
+        "weight": 10
+      },
+      {
+        "guid": "14731aea-9289-50b9-9111-46091fc7f4cf",
+        "name": "Caminhão-tanque",
+        "weight": 10
+      },
+      {
+        "guid": "0cf32dfb-73a0-5275-86f7-7fa8a6992a82",
+        "name": "Ônibus escolar",
+        "weight": 10
+      },
+      {
+        "guid": "d9ae48fe-37c2-5081-9e43-dde2884e22e1",
+        "name": "Ônibus urbano",
+        "weight": 10
+      },
+      {
+        "guid": "fb322671-c5ac-544f-afb8-60d83fcc36bf",
+        "name": "Honda Africa Twin",
+        "weight": 10
+      },
+      {
+        "guid": "59cb5690-22ba-592b-a499-57117345d9b4",
+        "name": "Yamaha Tenere",
+        "weight": 10
+      },
+      {
+        "guid": "f9bf4c40-cd7d-585f-8540-d891c67e643e",
+        "name": "UTV",
+        "weight": 10
+      },
+      {
+        "guid": "d75407dd-9802-5368-b64e-670b5a149436",
+        "name": "Lancha",
+        "weight": 10
+      },
+      {
+        "guid": "63a704ea-cb5f-56a9-b39a-bf33d050007a",
+        "name": "Jet ski",
+        "weight": 10
+      },
+      {
+        "guid": "ac584dd4-20bb-538c-bcbd-3cb62d51a4a1",
+        "name": "Heavy Rifle Magazine",
+        "weight": 10
+      },
+      {
+        "guid": "8bf7f6b9-02e2-53e8-975a-d7a1875744f2",
+        "name": "Precision Magazine",
+        "weight": 10
+      },
+      {
+        "guid": "1029a5d0-c4d5-5c54-8e39-e8b612861635",
+        "name": "DMR Magazine",
+        "weight": 10
+      },
+      {
+        "guid": "952b4643-18af-55a5-99b0-2088058151f4",
+        "name": "Bolt Bundle",
+        "weight": 10
+      }
+    ],
+    "event_endgame": [
+      {
+        "guid": "5249c539-8797-5079-8dac-2f947c06422b",
+        "name": "FN Five-seveN",
+        "weight": 4
+      },
+      {
+        "guid": "3fedb9d6-3263-5cb1-90c3-b370a341c763",
+        "name": "Desert Eagle",
+        "weight": 4
+      },
+      {
+        "guid": "0dc17c3b-e9ff-536b-adf9-59d4cf142044",
+        "name": "MP7",
+        "weight": 4
+      },
+      {
+        "guid": "d7dd58e2-57e3-5767-8499-e1c6e373de3a",
+        "name": "Vector",
+        "weight": 4
+      },
+      {
+        "guid": "d64e548e-aba1-56dc-b086-c16427665f93",
+        "name": "HK416",
+        "weight": 4
+      },
+      {
+        "guid": "9d2b786e-a93f-5efb-a2e9-c13020a98144",
+        "name": "SCAR-L",
+        "weight": 4
+      },
+      {
+        "guid": "04e29998-d2dd-51c2-b3b5-7420a1279ba7",
+        "name": "SCAR-H",
+        "weight": 1
+      },
+      {
+        "guid": "f6fe2bf5-34ac-5455-85d6-e75261a202f1",
+        "name": "Tavor X95",
+        "weight": 4
+      },
+      {
+        "guid": "b1b39c38-a6db-5ce6-852b-1aaa925b61b9",
+        "name": "AS VAL",
+        "weight": 4
+      },
+      {
+        "guid": "f2d2e532-8ab8-541e-a36c-0bc94e62f49c",
+        "name": "L96A1",
+        "weight": 4
+      },
+      {
+        "guid": "ca72e49e-ee8b-502b-ad27-84995574e363",
+        "name": "Barrett M82",
+        "weight": 1
+      },
+      {
+        "guid": "af6373b7-ea16-57a1-85e7-b0d7378b1814",
+        "name": "CheyTac M200",
+        "weight": 1
+      },
+      {
+        "guid": "bb6b7943-ca7d-56d3-af83-11cf8355fc43",
+        "name": "SR-25",
+        "weight": 4
+      },
+      {
+        "guid": "35cbf67b-3e98-5130-b62a-6bfa89f2e028",
+        "name": "SPAS-12",
+        "weight": 4
+      },
+      {
+        "guid": "0a176de1-993f-5c14-83fa-bad84afa883d",
+        "name": "KSG",
+        "weight": 4
+      },
+      {
+        "guid": "a71e22ac-4534-532f-a54b-adbad05733eb",
+        "name": "M249",
+        "weight": 4
+      },
+      {
+        "guid": "67a91e5f-5eed-5f3d-bcc0-4b3067dc8ae4",
+        "name": "MG3",
+        "weight": 1
+      },
+      {
+        "guid": "0695c823-5be8-52b5-9e2f-f2fd110ae34d",
+        "name": "M134 Minigun",
+        "weight": 1
+      },
+      {
+        "guid": "d9acbed9-f0c8-540a-9c76-73316724a40a",
+        "name": "Katana",
+        "weight": 4
+      },
+      {
+        "guid": "ef621e0c-258b-5aff-94b9-8d3699febe26",
+        "name": "Claymore",
+        "weight": 4
+      },
+      {
+        "guid": "ad613dca-13d5-52a7-86f9-14c5fccc5f9c",
+        "name": "Machado de batalha",
+        "weight": 4
+      },
+      {
+        "guid": "f01e48ac-5365-5f81-a184-a13d81fdbcf0",
+        "name": "Alabarda",
+        "weight": 4
+      },
+      {
+        "guid": "6f3677a0-25e4-5a3e-af7f-7c9f2d3d8a8b",
+        "name": "Mangual",
+        "weight": 4
+      },
+      {
+        "guid": "ad7d3be3-2449-5ca1-85e2-b0a07f835be7",
+        "name": "Besta pesada",
+        "weight": 4
+      },
+      {
+        "guid": "6f2a42dc-5007-5a3f-898e-152e7ec894b1",
+        "name": "Kusarigama",
+        "weight": 4
+      },
+      {
+        "guid": "202aa979-729d-5335-88d0-5f99fca9e985",
+        "name": "Chakram",
+        "weight": 4
+      },
+      {
+        "guid": "ddd72cad-0680-5912-b6d9-14f5a841caa4",
+        "name": "Plate Carrier militar",
+        "weight": 4
+      },
+      {
+        "guid": "41899535-2702-55a4-b221-390ae614e2f6",
+        "name": "Plate Carrier pesado",
+        "weight": 4
+      },
+      {
+        "guid": "923d38ef-6e78-5b00-b641-186c853b8951",
+        "name": "Colete NIJ III",
+        "weight": 4
+      },
+      {
+        "guid": "185b1406-eb69-5107-ad65-1eed93da903e",
+        "name": "Colete NIJ IV",
+        "weight": 1
+      },
+      {
+        "guid": "ca5323c8-ffcf-5639-b10d-abd0f2c94816",
+        "name": "Colete de forças especiais",
+        "weight": 4
+      },
+      {
+        "guid": "368ce386-bb06-5c5c-96e0-6745ac9860b1",
+        "name": "Colete com proteção lateral",
+        "weight": 4
+      },
+      {
+        "guid": "fa8f8e89-4033-52bb-938c-dea2bad457ef",
+        "name": "Armadura tática completa",
+        "weight": 1
+      },
+      {
+        "guid": "07e6abe7-7dbf-5eaa-addd-041062485a77",
+        "name": "Land Cruiser",
+        "weight": 4
+      },
+      {
+        "guid": "49475dac-b74a-51a5-93b4-c64ce13c67f9",
+        "name": "Dodge Charger",
+        "weight": 4
+      },
+      {
+        "guid": "276734b4-be15-5a84-8d6c-fe1b8aeb9451",
+        "name": "Ford Mustang",
+        "weight": 4
+      },
+      {
+        "guid": "d800fccf-73ce-54ce-9ffd-3b527af4cc60",
+        "name": "BMW X5",
+        "weight": 4
+      },
+      {
+        "guid": "2850450a-4cee-5a23-9e75-85137a0ebb51",
+        "name": "Mercedes G-Class",
+        "weight": 1
+      },
+      {
+        "guid": "37d6d56d-3978-52a8-9a5b-1a70c7c97324",
+        "name": "Nissan Patrol",
+        "weight": 4
+      },
+      {
+        "guid": "05887363-7a5b-5361-915a-24a605cc1d98",
+        "name": "Unimog",
+        "weight": 1
+      },
+      {
+        "guid": "799c8416-be42-5359-a4bb-8c3e0c2ea8c7",
+        "name": "Hummer H2",
+        "weight": 1
+      },
+      {
+        "guid": "98a0a287-526d-5d36-9419-7c680abe21e8",
+        "name": "Viatura SWAT",
+        "weight": 4
+      },
+      {
+        "guid": "9726a2f2-6762-5400-8a87-9ab4e5e62d2c",
+        "name": "Caminhão de bombeiros",
+        "weight": 4
+      },
+      {
+        "guid": "fb0d360f-4d89-55ef-8d70-a5942ef891e8",
+        "name": "Caminhão de combustível",
+        "weight": 4
+      },
+      {
+        "guid": "b6e208bb-e69d-5651-a55d-bba418b0d0dc",
+        "name": "Motorhome",
+        "weight": 4
+      },
+      {
+        "guid": "dd835830-5574-5741-8b2e-7872c642d22d",
+        "name": "Caminhão blindado",
+        "weight": 1
+      },
+      {
+        "guid": "4ae5a345-058c-57de-b452-326004b687b9",
+        "name": "Jipe militar",
+        "weight": 4
+      },
+      {
+        "guid": "f8db14ce-1837-5669-a25f-766a837a5c22",
+        "name": "Humvee",
+        "weight": 1
+      },
+      {
+        "guid": "ee0d8888-cc58-5726-94ef-cdeaaabf4057",
+        "name": "MRAP",
+        "weight": 1
+      },
+      {
+        "guid": "bcbe779d-ec4a-559c-9a8e-157398b03e00",
+        "name": "M113",
+        "weight": 1
+      },
+      {
+        "guid": "d3061954-e618-5fe0-aa8e-f3e950e19bee",
+        "name": "Caminhão militar",
+        "weight": 4
+      },
+      {
+        "guid": "6673afc8-6e70-58a2-9504-921be2ba93e8",
+        "name": "Anti-Materiel Magazine",
+        "weight": 4
+      },
+      {
+        "guid": "987bf602-7778-5bd2-b073-be3736e2050d",
+        "name": "LMG Belt",
+        "weight": 4
+      },
+      {
+        "guid": "5aa92364-a4a8-5e04-8681-6285b66e9aef",
+        "name": "Minigun Belt",
+        "weight": 1
+      }
+    ]
+  }
+}
