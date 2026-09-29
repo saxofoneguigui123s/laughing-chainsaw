@@ -1,0 +1,62 @@
+name: Fetch update asset
+
+on:
+  push:
+    branches:
+      - arena/01a0ee5f-laughing-chainsaw
+    paths:
+      - '.github/workflows/fetch-asset.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: arena/01a0ee5f-laughing-chainsaw
+          fetch-depth: 0
+
+      - name: Download release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/dl
+          gh release download unturned --repo "$GITHUB_REPOSITORY" --dir /tmp/dl --clobber
+          ls -l /tmp/dl
+          cd /tmp/dl
+          sha256sum ./*.zip > SHA256SUM.txt
+          cat SHA256SUM.txt
+
+      - name: Write manifest
+        run: |
+          set -euo pipefail
+          cd /tmp/dl
+          ZIP=$(ls ./*.zip | head -1)
+          {
+            echo "asset: $(basename "$ZIP")"
+            echo "sha256: $(cut -d' ' -f1 SHA256SUM.txt)"
+            echo "bytes: $(stat -c %s "$ZIP")"
+            echo
+            echo "== top-level entries =="
+            unzip -Z1 "$ZIP" | awk -F/ 'NF>1 {print $1"/"} NF==1 {print $1}' | sort -u
+            echo
+            echo "== full listing =="
+            unzip -l "$ZIP"
+          } > "$GITHUB_WORKSPACE/update-manifest.txt"
+          wc -l "$GITHUB_WORKSPACE/update-manifest.txt"
+
+      - name: Commit manifest
+        run: |
+          set -euo pipefail
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add update-manifest.txt
+          git commit -m "Add update manifest [skip ci]"
+          git push origin HEAD:arena/01a0ee5f-laughing-chainsaw
